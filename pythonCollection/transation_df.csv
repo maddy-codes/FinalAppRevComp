@@ -1,0 +1,17 @@
+,Code,BankTrnsactonID,DateString,Description,Amount,BankAccount_Code,BankAccount_Name,Name
+0,281,7974704d-8d0a-47de-90da-db794295c034,2023-06-02,CLOUD,18.4,692,Business Current Account,Google
+1,281,f0cf75a4-f3ff-42c4-819f-52b1ee1e34d1,2023-06-06,XERO,33.6,692,Business Current Account,Phipps Henson McAlister
+2,281,b4633798-4641-40e4-9056-9536d3b3d801,2023-06-21,MICROSOFT 360 SOFTWARE,79.99,692,Business Current Account,MICROSOFT
+3,281,4ee6afc2-82a5-44f3-afca-bb4e04531ed2,2023-06-28,Warehouse trade membership,26.4,692,Business Current Account,Costco
+4,263,bc6a11dd-bf4b-428f-8720-d9d7562f2af0,2023-06-06,,34.18,692,Business Current Account,EE & T-mobile
+5,263,e24c2be9-5db4-45f1-b670-6c9222d2aa5f,2023-06-06,MOBILE,39.51,692,Business Current Account,O2
+6,286,592f66f6-9900-4db0-9853-ecf1d8b7bcf0,2023-06-06,,28.75,692,Business Current Account,BARCLAYS BANK COMMISSION CHARGES
+7,286,cf64dcbf-f173-4273-9e5d-c333d0141843,2023-06-06,,0.38,692,Business Current Account,BARCLAYS BANK LOYALTY REWARD
+8,727,6007a3d3-b038-44ad-8338-d1abd1272c08,2023-06-09,,114.0,692,Business Current Account,Sky
+9,756,af30abfc-ff38-43cb-bc05-ed6332e3b4ef,2023-06-15,JONATHAN PHILPOT,500.0,692,Business Current Account,Jonathan Philpot
+10,756,dd35598d-b558-4d96-83e4-2bd01285f79f,2023-06-15,KIRSTY PHILPOT,500.0,692,Business Current Account,Kirsty Philpot
+11,755,4c4a1fef-c8fb-4388-bdf0-3ff2c34981b7,2023-06-15,MAY 2023 PAYE/NIC 16 TAX 33,49.0,692,Business Current Account,HMRC
+12,595,7114eed0-8b17-4c23-9380-91aef1166ec9,2023-06-02,MGH LTD  JPD001 BGC,6078.72,692,Business Current Account,Martin Grant Homes
+13,595,3d73fa39-d283-4260-8b92-38542a411f9c,2023-06-02,MGH LTD  JPD001 BGC,2106.1,692,Business Current Account,Martin Grant Homes
+14,595,ce34dff9-17d2-4374-a661-cdae7bcb0e23,2023-06-02,MGH LTD  JPD001 BGC,14444.83,692,Business Current Account,Martin Grant Homes
+15,595,ff3eb633-0996-438a-86a1-fd8a3e5dab13,2023-06-02,MGH LTD  JPD001 BGC,21.13,692,Business Current Account,Martin Grant Homes

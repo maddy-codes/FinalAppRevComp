@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+
+{% block pagetitle %}Home{% endblock pagetitle %}
+
+{% block mainbody %}
+
+
+<div class='container m-5'>
+  <div class='p-3'>
+  </div>
+</div>
+
+<div class='container py-5'>
+<div class="row">
+  <div class="col-sm-6 mb-3 mb-sm-0">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <ul>
+          <li>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          </li>
+          <li>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          </li>
+          <li>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          </li>
+          <li>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <ul>
+          <li>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          </li>
+          <li>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          </li>
+          <li>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          </li>
+          <li>
+            <p class="card-text center">With supporting text below as a natural lead-in to additional content.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div class='container  text-center mt-3 p-5'>
+    <form method='POST' enctype='multipart/form-data' action = "{% url 'uploaded' %}">
+        {% csrf_token %}
+        <div class="mb-3"> 
+          <label for="file" class="form-label"><strong>Please Upload Your File</strong></label>
+          <input type="file" class="form-control p-2" id="file"  name="file" accept='application/pdf'>
+        </div>
+        <div class="mb-3">
+          <label for="name " class="form-label"><strong>Please Assign It a Name</strong></label>
+          <input type="text" class="form-control p-2" id="name" name="name">
+        </div>
+        <button type="submit" class="btn btn-primary mt-3 p-2">Compose Review Notes</button>
+    </form>
+<div>
+
+{% endblock mainbody %}

@@ -1,0 +1,98 @@
+{
+  "Id": "230018ee-766d-4add-ad52-630dab25b62a",
+  "Status": "OK",
+  "ProviderName": "TestApp2",
+  "DateTimeUTC": "\/Date(1689332246484)\/",
+  "BankTransactions": [
+    {
+      "BankTransactionID": "d074f2c4-a4a4-41aa-ba52-27b93982cc18",
+      "BankAccount": {
+        "AccountID": "5ce16fb0-5167-4cfc-a1e0-a3f45d7f3dac",
+        "Code": "692",
+        "Name": "Business Current Account"
+      },
+      "Type": "SPEND",
+      "Reference": "Direct Debit to 02 Ref: Ged39905990",
+      "IsReconciled": true,
+      "HasAttachments": false,
+      "Attachments": [],
+      "Contact": {
+        "ContactID": "43c6430e-43cb-4587-a5c7-452aa9bda1e5",
+        "ContactStatus": "ACTIVE",
+        "Name": "O2",
+        "EmailAddress": "",
+        "BankAccountDetails": "",
+        "Addresses": [
+          {
+            "AddressType": "STREET",
+            "City": "",
+            "Region": "",
+            "PostalCode": "",
+            "Country": ""
+          },
+          {
+            "AddressType": "POBOX",
+            "City": "",
+            "Region": "",
+            "PostalCode": "",
+            "Country": ""
+          }
+        ],
+        "Phones": [
+          {
+            "PhoneType": "DEFAULT",
+            "PhoneNumber": "",
+            "PhoneAreaCode": "",
+            "PhoneCountryCode": ""
+          },
+          {
+            "PhoneType": "DDI",
+            "PhoneNumber": "",
+            "PhoneAreaCode": "",
+            "PhoneCountryCode": ""
+          },
+          {
+            "PhoneType": "FAX",
+            "PhoneNumber": "",
+            "PhoneAreaCode": "",
+            "PhoneCountryCode": ""
+          },
+          {
+            "PhoneType": "MOBILE",
+            "PhoneNumber": "",
+            "PhoneAreaCode": "",
+            "PhoneCountryCode": ""
+          }
+        ],
+        "UpdatedDateUTC": "\/Date(1550662037727+0000)\/",
+        "ContactGroups": [],
+        "ContactPersons": [],
+        "HasValidationErrors": false
+      },
+      "DateString": "2018-12-03T00:00:00",
+      "Date": "\/Date(1543795200000+0000)\/",
+      "Status": "AUTHORISED",
+      "LineAmountTypes": "Inclusive",
+      "LineItems": [
+        {
+          "Description": "",
+          "UnitAmount": 18.00,
+          "TaxType": "INPUT2",
+          "TaxAmount": 3.00,
+          "LineAmount": 18.00,
+          "AccountCode": "263",
+          "Tracking": [],
+          "Quantity": 1.0000,
+          "LineItemID": "ec4fc20a-f64d-4024-ab54-795518248ddf",
+          "AccountID": "c3e01c94-ad7d-41dd-8d3b-c87a9ae9125c",
+          "ValidationErrors": []
+        }
+      ],
+      "SubTotal": 15.00,
+      "TotalTax": 3.00,
+      "Total": 18.00,
+      "UpdatedDateUTC": "\/Date(1550662188587+0000)\/",
+      "CurrencyCode": "GBP"
+    }
+  ]
+}

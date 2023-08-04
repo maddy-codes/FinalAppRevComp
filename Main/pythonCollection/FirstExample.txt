@@ -1,0 +1,38 @@
+Expenditure,This Year
+Sales,15809906
+Opening stock,394075
+Purchases,8301292
+Packaging,1095596
+Wages and salaries,1537070
+Contract labour,254138
+Government grants,26143
+Deposit account interest,8494
+Other interest,1575
+Directors' pension contributions,400000
+Directors' medical insurance,22120
+Insurance,71296
+Light and heat,521817
+Wages,258203
+Pensions,28560
+Staff training and recruitment,1961
+Telephone,13112
+"Printing, postage and stationery",14693
+Advertising,39352
+Travel and subsistence,23455
+Motor expenses,222977
+Staff benefits,12657
+Property repairs,159606
+Cleaning and hygiene costs,144744
+maintenance,354232
+Food Audit Costs,51373
+Legal & professional fees,47794
+Auditors' remuneration,10020
+Hire of plant and machinery,14973
+Other operating leases,1994
+Bad debts,3080
+Bank charges,3718
+Mortgage interest,9375
+Motor vehicles,23249
+Motor vehicles,2924
+HOUGHTON HAMS LIMITED, 0.0
+31 MARCH 2023, 0.0

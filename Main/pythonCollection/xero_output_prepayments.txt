@@ -1,0 +1,50 @@
+{
+  "Id": "cd8e6e80-e27c-4fe5-9dbc-77a8988618ea",
+  "Status": "OK",
+  "ProviderName": "TestApp2",
+  "DateTimeUTC": "\/Date(1690984094898)\/",
+  "Prepayments": [
+    {
+      "PrepaymentID": "eac4ecf7-bad2-4be4-8e4f-633fab8191d7",
+      "ID": "eac4ecf7-bad2-4be4-8e4f-633fab8191d7",
+      "Type": "RECEIVE-PREPAYMENT",
+      "Reference": "INV-0738",
+      "RemainingCredit": 189564.49,
+      "Allocations": [],
+      "Payments": [],
+      "HasAttachments": false,
+      "Contact": {
+        "ContactID": "4ae25aa5-d71b-4009-be3c-c409671aaffd",
+        "Name": "Showroom Prive",
+        "Addresses": [],
+        "Phones": [],
+        "ContactGroups": [],
+        "ContactPersons": [],
+        "HasValidationErrors": false
+      },
+      "DateString": "2021-07-15T00:00:00",
+      "Date": "\/Date(1626307200000+0000)\/",
+      "Status": "VOIDED",
+      "LineAmountTypes": "Inclusive",
+      "LineItems": [
+        {
+          "Description": "Part payment",
+          "UnitAmount": 189564.49,
+          "TaxType": "OUTPUT2",
+          "TaxAmount": 31594.08,
+          "LineAmount": 189564.49,
+          "AccountCode": "4000",
+          "Tracking": [],
+          "Quantity": 1.0000,
+          "LineItemID": "a68a920e-5e3c-4b3d-b979-bf358fe5408c",
+          "AccountID": "4492e54f-8172-4f77-9839-1feb83dfcb5d"
+        }
+      ],
+      "SubTotal": 157970.41,
+      "TotalTax": 31594.08,
+      "Total": 189564.49,
+      "UpdatedDateUTC": "\/Date(1635946325703+0000)\/",
+      "CurrencyCode": "GBP"
+    }
+  ]
+}

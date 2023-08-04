@@ -1,0 +1,7 @@
+{
+  "Id": "d4a91c92-a5ce-4370-9b43-2e137f3b5352",
+  "Status": "OK",
+  "ProviderName": "TestApp2",
+  "DateTimeUTC": "\/Date(1690984091610)\/",
+  "Invoices": []
+}

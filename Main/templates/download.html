@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block pagetitle %}Download Ready!{% endblock pagetitle %}
+
+{% block mainbody %}
+
+    <div class="container text-center p-5 m-5"></div> 
+
+    <div class="container text-center p-5 m-5">
+        <label class="label"><strong>Your File is Ready to Download.</strong></label>
+        <br>
+        <a href='pythonCollection\test.xlsx' class='btn btn-primary m-3 p-2 w-25' download>Download</a>
+        <a href='/' class='btn btn-primary m-3 p-2 w-25'>Go Back</a>
+    </div>
+{% endblock mainbody %}

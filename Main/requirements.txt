@@ -1,0 +1,6 @@
+django
+openpyxl
+pyPDF2
+xlsxwriter
+pillow
+whitenoise

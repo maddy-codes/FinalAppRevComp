@@ -1,0 +1,1 @@
+PurchaseOrderNumber,Date,DeliveryDate,DeliveryAddress,Reference,OrderType,Status,LineAmountTypes,Description,AccountCode,Subtotal,TotalTax,Total,PurchaseOrderID

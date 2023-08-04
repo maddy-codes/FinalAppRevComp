@@ -1,0 +1,3164 @@
+{
+  "Id": "48de2129-62c9-4297-8ff6-1dce1fdb0db8",
+  "Status": "OK",
+  "ProviderName": "TestApp2",
+  "DateTimeUTC": "\/Date(1690984094598)\/",
+  "ManualJournals": [
+    {
+      "Date": "\/Date(1625184000000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1625131106553+0000)\/",
+      "ManualJournalID": "9ddc0a60-d54a-4c12-a7fa-844eae1c5c51",
+      "Narration": "Sent from BrightPay",
+      "JournalLines": [
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 1160.00,
+          "AccountCode": "7003",
+          "Tracking": [],
+          "AccountID": "0214c075-3c1a-4706-abff-49bac7da4598",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -343.60,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -929.56,
+          "AccountCode": "2220",
+          "Tracking": [],
+          "AccountID": "1df5acf5-3cb7-4cb7-9f14-f376eadd5a72",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 113.16,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1626393600000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1628244063893+0000)\/",
+      "ManualJournalID": "063b53f8-9fe8-49c1-b8a2-013af06d974d",
+      "Narration": "Sent from BrightPay",
+      "JournalLines": [
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 1160.00,
+          "AccountCode": "7003",
+          "Tracking": [],
+          "AccountID": "0214c075-3c1a-4706-abff-49bac7da4598",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -343.40,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -929.76,
+          "AccountCode": "2220",
+          "Tracking": [],
+          "AccountID": "1df5acf5-3cb7-4cb7-9f14-f376eadd5a72",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 113.16,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1625184000000+0000)\/",
+      "Status": "VOIDED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1628244073233+0000)\/",
+      "ManualJournalID": "4321e459-20f2-4629-a999-1354a10e7d62",
+      "Narration": "Sent from BrightPay",
+      "JournalLines": [
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 1160.00,
+          "AccountCode": "7003",
+          "Tracking": [],
+          "AccountID": "0214c075-3c1a-4706-abff-49bac7da4598",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -343.60,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -929.56,
+          "AccountCode": "2220",
+          "Tracking": [],
+          "AccountID": "1df5acf5-3cb7-4cb7-9f14-f376eadd5a72",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 113.16,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1627603200000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1628244109350+0000)\/",
+      "ManualJournalID": "5143dad7-0f23-4079-b26c-190d556d8d9b",
+      "Narration": "Sent from BrightPay",
+      "JournalLines": [
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 1160.00,
+          "AccountCode": "7003",
+          "Tracking": [],
+          "AccountID": "0214c075-3c1a-4706-abff-49bac7da4598",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -343.40,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -929.76,
+          "AccountCode": "2220",
+          "Tracking": [],
+          "AccountID": "1df5acf5-3cb7-4cb7-9f14-f376eadd5a72",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 113.16,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1628812800000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1628244156003+0000)\/",
+      "ManualJournalID": "1a06afd3-d7d4-47e5-91eb-bf251988d4cc",
+      "Narration": "Sent from BrightPay",
+      "JournalLines": [
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 1160.00,
+          "AccountCode": "7003",
+          "Tracking": [],
+          "AccountID": "0214c075-3c1a-4706-abff-49bac7da4598",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -343.40,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -929.76,
+          "AccountCode": "2220",
+          "Tracking": [],
+          "AccountID": "1df5acf5-3cb7-4cb7-9f14-f376eadd5a72",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 113.16,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1627689600000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1629361285993+0000)\/",
+      "ManualJournalID": "2d3187fb-149b-460d-8edb-c043734bc8c3",
+      "Narration": "NIC Allowance - Month 4",
+      "JournalLines": [
+        {
+          "Description": "NIC Allowance - Month 4",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 226.32,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "NIC Allowance - Month 4",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -226.32,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1630022400000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1631105327610+0000)\/",
+      "ManualJournalID": "98e39658-da63-49fe-8df9-e58ecd9e5014",
+      "Narration": "Sent from BrightPay",
+      "JournalLines": [
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 1160.00,
+          "AccountCode": "7003",
+          "Tracking": [],
+          "AccountID": "0214c075-3c1a-4706-abff-49bac7da4598",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -343.40,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -929.76,
+          "AccountCode": "2220",
+          "Tracking": [],
+          "AccountID": "1df5acf5-3cb7-4cb7-9f14-f376eadd5a72",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 113.16,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1630368000000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1631105460680+0000)\/",
+      "ManualJournalID": "3c20cdc2-19ae-4bb6-ba7f-407e39247120",
+      "Narration": "NIC Allowance - Month 5",
+      "JournalLines": [
+        {
+          "Description": "NIC Allowance - Month 5",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 226.32,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "NIC Allowance - Month 5",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -226.32,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1631232000000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1631105497580+0000)\/",
+      "ManualJournalID": "aa92821a-46cb-473b-aa76-4f46ddf83da2",
+      "Narration": "Sent from BrightPay",
+      "JournalLines": [
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 1160.00,
+          "AccountCode": "7003",
+          "Tracking": [],
+          "AccountID": "0214c075-3c1a-4706-abff-49bac7da4598",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -343.40,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -929.76,
+          "AccountCode": "2220",
+          "Tracking": [],
+          "AccountID": "1df5acf5-3cb7-4cb7-9f14-f376eadd5a72",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 113.16,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1627776000000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1633070647290+0000)\/",
+      "ManualJournalID": "6dae7cf0-5d71-468c-b55c-3881652d816b",
+      "Narration": "Reversal of: Movement of Purchases to Prepayment (New Futura Bills) - 30 June",
+      "JournalLines": [
+        {
+          "Description": "Movement of Purchases to Prepayment (New Futura Bills) - 30 June",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 581299.59,
+          "AccountCode": "1011",
+          "Tracking": [],
+          "AccountID": "33fbfce8-5cc8-440e-84b8-7a5a5f8c6edd",
+          "IsBlank": false
+        },
+        {
+          "Description": "Movement of Purchases to Prepayment (New Futura Bills) - 30 June",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -581299.59,
+          "AccountCode": "1103",
+          "Tracking": [],
+          "AccountID": "a3dbbda0-e3e3-4033-b9c5-3857ac86ce30",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1632441600000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1633614574953+0000)\/",
+      "ManualJournalID": "858674d9-e71a-48f8-b06f-76c1e35fed36",
+      "Narration": "Sent from BrightPay",
+      "JournalLines": [
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 1160.00,
+          "AccountCode": "7003",
+          "Tracking": [],
+          "AccountID": "0214c075-3c1a-4706-abff-49bac7da4598",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -343.60,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -929.56,
+          "AccountCode": "2220",
+          "Tracking": [],
+          "AccountID": "1df5acf5-3cb7-4cb7-9f14-f376eadd5a72",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 113.16,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1633651200000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1633614606883+0000)\/",
+      "ManualJournalID": "c615cddb-4cbf-42c6-9d05-36a6932fc6e4",
+      "Narration": "Sent from BrightPay",
+      "JournalLines": [
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 1160.00,
+          "AccountCode": "7003",
+          "Tracking": [],
+          "AccountID": "0214c075-3c1a-4706-abff-49bac7da4598",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -343.40,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -929.76,
+          "AccountCode": "2220",
+          "Tracking": [],
+          "AccountID": "1df5acf5-3cb7-4cb7-9f14-f376eadd5a72",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 113.16,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1632960000000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1633614719237+0000)\/",
+      "ManualJournalID": "fbe77c49-fdf1-4d82-b833-5646f3498d3a",
+      "Narration": "NIC Allowance - Month 6",
+      "JournalLines": [
+        {
+          "Description": "NIC Allowance - Month 6",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 226.32,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "NIC Allowance - Month 6",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -226.32,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1625443200000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1634725119823+0000)\/",
+      "ManualJournalID": "1055f17b-b29a-4fbf-a491-ea42b951af6a",
+      "Narration": "NIC Allowance - Month 3",
+      "JournalLines": [
+        {
+          "Description": "NIC Allowance - Month 3",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 113.16,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "NIC Allowance - Month 3",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -113.16,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1634860800000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1636118265837+0000)\/",
+      "ManualJournalID": "9fd3cc83-86ef-4233-8ad6-0c2e5c4b6f91",
+      "Narration": "Sent from BrightPay",
+      "JournalLines": [
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 1160.00,
+          "AccountCode": "7003",
+          "Tracking": [],
+          "AccountID": "0214c075-3c1a-4706-abff-49bac7da4598",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -343.40,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -929.76,
+          "AccountCode": "2220",
+          "Tracking": [],
+          "AccountID": "1df5acf5-3cb7-4cb7-9f14-f376eadd5a72",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 113.16,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1636070400000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1639464403537+0000)\/",
+      "ManualJournalID": "01746d44-d885-46e5-9ba8-94b2167ce376",
+      "Narration": "Sent from BrightPay",
+      "JournalLines": [
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 1160.00,
+          "AccountCode": "7003",
+          "Tracking": [],
+          "AccountID": "0214c075-3c1a-4706-abff-49bac7da4598",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -343.40,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -929.76,
+          "AccountCode": "2220",
+          "Tracking": [],
+          "AccountID": "1df5acf5-3cb7-4cb7-9f14-f376eadd5a72",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 113.16,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1637280000000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1639464441723+0000)\/",
+      "ManualJournalID": "a4cc3fdc-59aa-41bb-bfd4-def2d333a75b",
+      "Narration": "Sent from BrightPay",
+      "JournalLines": [
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 1160.00,
+          "AccountCode": "7003",
+          "Tracking": [],
+          "AccountID": "0214c075-3c1a-4706-abff-49bac7da4598",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -343.40,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -929.76,
+          "AccountCode": "2220",
+          "Tracking": [],
+          "AccountID": "1df5acf5-3cb7-4cb7-9f14-f376eadd5a72",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 113.16,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1638489600000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1639464472907+0000)\/",
+      "ManualJournalID": "d6602d5b-2999-4bc7-895f-aeb3b33be8e8",
+      "Narration": "Sent from BrightPay",
+      "JournalLines": [
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 1160.00,
+          "AccountCode": "7003",
+          "Tracking": [],
+          "AccountID": "0214c075-3c1a-4706-abff-49bac7da4598",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -343.40,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -929.76,
+          "AccountCode": "2220",
+          "Tracking": [],
+          "AccountID": "1df5acf5-3cb7-4cb7-9f14-f376eadd5a72",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 113.16,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1639699200000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1639464503670+0000)\/",
+      "ManualJournalID": "27f5adba-b140-4106-ab26-398bb7530365",
+      "Narration": "Sent from BrightPay",
+      "JournalLines": [
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 1160.00,
+          "AccountCode": "7003",
+          "Tracking": [],
+          "AccountID": "0214c075-3c1a-4706-abff-49bac7da4598",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -343.60,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -929.56,
+          "AccountCode": "2220",
+          "Tracking": [],
+          "AccountID": "1df5acf5-3cb7-4cb7-9f14-f376eadd5a72",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 113.16,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1642118400000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1645095358173+0000)\/",
+      "ManualJournalID": "049aa43b-14f2-43d3-a6f8-fa9ab3fded8a",
+      "Narration": "Sent from BrightPay",
+      "JournalLines": [
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 1160.00,
+          "AccountCode": "7003",
+          "Tracking": [],
+          "AccountID": "0214c075-3c1a-4706-abff-49bac7da4598",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -343.40,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -929.76,
+          "AccountCode": "2220",
+          "Tracking": [],
+          "AccountID": "1df5acf5-3cb7-4cb7-9f14-f376eadd5a72",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 113.16,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1640908800000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1645095425583+0000)\/",
+      "ManualJournalID": "c4a44541-6ac5-4d53-b82b-acde82570630",
+      "Narration": "Sent from BrightPay",
+      "JournalLines": [
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 1160.00,
+          "AccountCode": "7003",
+          "Tracking": [],
+          "AccountID": "0214c075-3c1a-4706-abff-49bac7da4598",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -343.40,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -929.76,
+          "AccountCode": "2220",
+          "Tracking": [],
+          "AccountID": "1df5acf5-3cb7-4cb7-9f14-f376eadd5a72",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 113.16,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1643328000000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1645095569093+0000)\/",
+      "ManualJournalID": "1710a904-40cc-4e23-9f72-50f0db2c102f",
+      "Narration": "Sent from BrightPay",
+      "JournalLines": [
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 1160.00,
+          "AccountCode": "7003",
+          "Tracking": [],
+          "AccountID": "0214c075-3c1a-4706-abff-49bac7da4598",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -343.40,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -929.76,
+          "AccountCode": "2220",
+          "Tracking": [],
+          "AccountID": "1df5acf5-3cb7-4cb7-9f14-f376eadd5a72",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 113.16,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1644537600000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1645095764620+0000)\/",
+      "ManualJournalID": "312c8c63-cf96-4d26-9d81-70ebf7f7527e",
+      "Narration": "Sent from BrightPay",
+      "JournalLines": [
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 1160.00,
+          "AccountCode": "7003",
+          "Tracking": [],
+          "AccountID": "0214c075-3c1a-4706-abff-49bac7da4598",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -343.40,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -929.76,
+          "AccountCode": "2220",
+          "Tracking": [],
+          "AccountID": "1df5acf5-3cb7-4cb7-9f14-f376eadd5a72",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 113.16,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1645747200000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1646988713487+0000)\/",
+      "ManualJournalID": "ba79a9f7-45d5-444f-b53b-0e78f700603a",
+      "Narration": "Sent from BrightPay",
+      "JournalLines": [
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 1160.00,
+          "AccountCode": "7003",
+          "Tracking": [],
+          "AccountID": "0214c075-3c1a-4706-abff-49bac7da4598",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -343.40,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -929.76,
+          "AccountCode": "2220",
+          "Tracking": [],
+          "AccountID": "1df5acf5-3cb7-4cb7-9f14-f376eadd5a72",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 113.16,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1646956800000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1646988919417+0000)\/",
+      "ManualJournalID": "01a333dd-63a4-4940-a5c4-85ab63ea5f7e",
+      "Narration": "Sent from BrightPay",
+      "JournalLines": [
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 1160.00,
+          "AccountCode": "7003",
+          "Tracking": [],
+          "AccountID": "0214c075-3c1a-4706-abff-49bac7da4598",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -343.60,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -929.56,
+          "AccountCode": "2220",
+          "Tracking": [],
+          "AccountID": "1df5acf5-3cb7-4cb7-9f14-f376eadd5a72",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 113.16,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1625097600000+0000)\/",
+      "Status": "VOIDED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1648203622677+0000)\/",
+      "ManualJournalID": "bfe23fc9-056d-4306-abea-a6714ba272f3",
+      "Narration": "Reversal of: Movement of Closing Stock to Opening Stock - 1 July",
+      "JournalLines": [
+        {
+          "Description": "Stock Adjustment - Based on Stock Report - 30 June",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -18140.00,
+          "AccountCode": "5006",
+          "Tracking": [],
+          "AccountID": "8662d596-1e4b-4978-93d5-0b42cd21ce7c",
+          "IsBlank": false
+        },
+        {
+          "Description": "Stock Adjustment - Based on Stock Report - 30 June",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 18140.00,
+          "AccountCode": "5005",
+          "Tracking": [],
+          "AccountID": "5fb15f78-0604-49be-b054-bd05ea018130",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1643673600000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1648817053477+0000)\/",
+      "ManualJournalID": "a787df3c-e535-4ca7-8d16-ce40950e4954",
+      "Narration": "Movement of Stock - 2021 to Purchases - Footwear",
+      "JournalLines": [
+        {
+          "Description": "Movement of Stock - 2021 to Purchases - Footwear",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 581299.59,
+          "AccountCode": "5000",
+          "Tracking": [],
+          "AccountID": "b5020e46-e1da-498c-bd63-548c5f5b2e9e",
+          "IsBlank": false
+        },
+        {
+          "Description": "Movement of Stock - 2021 to Purchases - Footwear",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -581299.59,
+          "AccountCode": "1011",
+          "Tracking": [],
+          "AccountID": "33fbfce8-5cc8-440e-84b8-7a5a5f8c6edd",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1625097600000+0000)\/",
+      "Status": "VOIDED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1649150360583+0000)\/",
+      "ManualJournalID": "6405cba2-3035-4c63-8dc1-acd84de671e5",
+      "Narration": "For Opening and Closing Stock - 1 July",
+      "JournalLines": [
+        {
+          "Description": "For Opening and Closing Stock - 1 July",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 18140.00,
+          "AccountCode": "5005",
+          "Tracking": [],
+          "AccountID": "5fb15f78-0604-49be-b054-bd05ea018130",
+          "IsBlank": false
+        },
+        {
+          "Description": "For Opening and Closing Stock - 1 July",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -18140.00,
+          "AccountCode": "5006",
+          "Tracking": [],
+          "AccountID": "8662d596-1e4b-4978-93d5-0b42cd21ce7c",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1646092800000+0000)\/",
+      "Status": "VOIDED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1649150734723+0000)\/",
+      "ManualJournalID": "c593c048-0ea7-4992-ac5f-478b01ba061f",
+      "Narration": "Reversal: February 2022 - Month End Stock Valuation",
+      "JournalLines": [
+        {
+          "Description": "February 2022 - Month End Stock Valuation ",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -42322.00,
+          "AccountCode": "1011",
+          "Tracking": [],
+          "AccountID": "33fbfce8-5cc8-440e-84b8-7a5a5f8c6edd",
+          "IsBlank": false
+        },
+        {
+          "Description": "February 2022 - Month End Stock Valuation ",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 42322.00,
+          "AccountCode": "5006",
+          "Tracking": [],
+          "AccountID": "8662d596-1e4b-4978-93d5-0b42cd21ce7c",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1648684800000+0000)\/",
+      "Status": "VOIDED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1649151775727+0000)\/",
+      "ManualJournalID": "31511a58-8e61-4cf0-a392-09d11dbfe8ce",
+      "Narration": "March 2022 - Month End Stock Valuation (test)",
+      "JournalLines": [
+        {
+          "Description": "February 2022 - Month End Stock Valuation ",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 7678.00,
+          "AccountCode": "1011",
+          "Tracking": [],
+          "AccountID": "33fbfce8-5cc8-440e-84b8-7a5a5f8c6edd",
+          "IsBlank": false
+        },
+        {
+          "Description": "February 2022 - Month End Stock Valuation ",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -7678.00,
+          "AccountCode": "5006",
+          "Tracking": [],
+          "AccountID": "8662d596-1e4b-4978-93d5-0b42cd21ce7c",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1651276800000+0000)\/",
+      "Status": "VOIDED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1649161941163+0000)\/",
+      "ManualJournalID": "3d80da15-b91a-4a5e-8650-b7b7c7366e5e",
+      "Narration": "Stock test",
+      "JournalLines": [
+        {
+          "Description": "Stock test",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 50000.00,
+          "AccountCode": "5005",
+          "Tracking": [],
+          "AccountID": "5fb15f78-0604-49be-b054-bd05ea018130",
+          "IsBlank": false
+        },
+        {
+          "Description": "Stock test",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -50000.00,
+          "AccountCode": "1011",
+          "Tracking": [],
+          "AccountID": "33fbfce8-5cc8-440e-84b8-7a5a5f8c6edd",
+          "IsBlank": false
+        },
+        {
+          "Description": "Stock test",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 60000.00,
+          "AccountCode": "1011",
+          "Tracking": [],
+          "AccountID": "33fbfce8-5cc8-440e-84b8-7a5a5f8c6edd",
+          "IsBlank": false
+        },
+        {
+          "Description": "Stock test",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -60000.00,
+          "AccountCode": "5006",
+          "Tracking": [],
+          "AccountID": "8662d596-1e4b-4978-93d5-0b42cd21ce7c",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1648684800000+0000)\/",
+      "Status": "VOIDED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1649161945887+0000)\/",
+      "ManualJournalID": "d07339c5-e983-4cf2-a5f7-a32d7411168b",
+      "Narration": "Stock test",
+      "JournalLines": [
+        {
+          "Description": "Stock test",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 42322.00,
+          "AccountCode": "5005",
+          "Tracking": [],
+          "AccountID": "5fb15f78-0604-49be-b054-bd05ea018130",
+          "IsBlank": false
+        },
+        {
+          "Description": "Stock test",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -42322.00,
+          "AccountCode": "1011",
+          "Tracking": [],
+          "AccountID": "33fbfce8-5cc8-440e-84b8-7a5a5f8c6edd",
+          "IsBlank": false
+        },
+        {
+          "Description": "Stock test",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 50000.00,
+          "AccountCode": "1011",
+          "Tracking": [],
+          "AccountID": "33fbfce8-5cc8-440e-84b8-7a5a5f8c6edd",
+          "IsBlank": false
+        },
+        {
+          "Description": "Stock test",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -50000.00,
+          "AccountCode": "5006",
+          "Tracking": [],
+          "AccountID": "8662d596-1e4b-4978-93d5-0b42cd21ce7c",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1648166400000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1649166715167+0000)\/",
+      "ManualJournalID": "d3bdf354-5299-494d-ba06-f4fc65703cd5",
+      "Narration": "Sent from BrightPay",
+      "JournalLines": [
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 1160.00,
+          "AccountCode": "7003",
+          "Tracking": [],
+          "AccountID": "0214c075-3c1a-4706-abff-49bac7da4598",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -343.40,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -929.76,
+          "AccountCode": "2220",
+          "Tracking": [],
+          "AccountID": "1df5acf5-3cb7-4cb7-9f14-f376eadd5a72",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 113.16,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1650585600000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1652432350160+0000)\/",
+      "ManualJournalID": "cf4976cd-7280-4294-920c-fe4e403f61f5",
+      "Narration": "Sent from BrightPay",
+      "JournalLines": [
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 1160.00,
+          "AccountCode": "7003",
+          "Tracking": [],
+          "AccountID": "0214c075-3c1a-4706-abff-49bac7da4598",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -360.45,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -921.45,
+          "AccountCode": "2220",
+          "Tracking": [],
+          "AccountID": "1df5acf5-3cb7-4cb7-9f14-f376eadd5a72",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 121.90,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1651795200000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1652432390370+0000)\/",
+      "ManualJournalID": "4ff249cf-d218-442e-a97f-381c20b448a5",
+      "Narration": "Sent from BrightPay",
+      "JournalLines": [
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 1160.00,
+          "AccountCode": "7003",
+          "Tracking": [],
+          "AccountID": "0214c075-3c1a-4706-abff-49bac7da4598",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -360.45,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -921.45,
+          "AccountCode": "2220",
+          "Tracking": [],
+          "AccountID": "1df5acf5-3cb7-4cb7-9f14-f376eadd5a72",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 121.90,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1635638400000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1653032352363+0000)\/",
+      "ManualJournalID": "42c1a43f-8f12-4c44-92bd-35f76fda88e4",
+      "Narration": "NIC Allowance - Month 7",
+      "JournalLines": [
+        {
+          "Description": "NIC Allowance - Month 6",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 339.48,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "NIC Allowance - Month 6",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -339.48,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1638230400000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1653032387270+0000)\/",
+      "ManualJournalID": "b031c80d-f44a-4b55-b686-66d79246669f",
+      "Narration": "NIC Allowance - Month 8",
+      "JournalLines": [
+        {
+          "Description": "NIC Allowance - Month 6",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 226.32,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "NIC Allowance - Month 6",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -226.32,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1640908800000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1653032410057+0000)\/",
+      "ManualJournalID": "7a801bbf-b4a8-4209-be7e-f47a5a1581f7",
+      "Narration": "NIC Allowance - Month 9",
+      "JournalLines": [
+        {
+          "Description": "NIC Allowance - Month 6",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 226.32,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "NIC Allowance - Month 6",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -226.32,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1643587200000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1653032457610+0000)\/",
+      "ManualJournalID": "4a89cbd6-a41a-4f98-945e-86f9b272d21c",
+      "Narration": "NIC Allowance - Month 10",
+      "JournalLines": [
+        {
+          "Description": "NIC Allowance - Month 6",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 226.32,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "NIC Allowance - Month 6",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -226.32,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1646006400000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1653032473737+0000)\/",
+      "ManualJournalID": "c8f018fd-5036-4341-890b-7b4177eb7462",
+      "Narration": "NIC Allowance - Month 11",
+      "JournalLines": [
+        {
+          "Description": "NIC Allowance - Month 6",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 226.32,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "NIC Allowance - Month 6",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -226.32,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1648684800000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1653032511240+0000)\/",
+      "ManualJournalID": "08ae9b2d-240f-4cc8-84f7-c511ed6043a2",
+      "Narration": "NIC Allowance - Month 12",
+      "JournalLines": [
+        {
+          "Description": "NIC Allowance - Month 6",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 226.32,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "NIC Allowance - Month 6",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -226.32,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1651276800000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1653032627793+0000)\/",
+      "ManualJournalID": "f6fa6973-4318-4743-9a45-2b346490a2ff",
+      "Narration": "NIC Allowance - Month 1 - 2022",
+      "JournalLines": [
+        {
+          "Description": "NIC Allowance - Month 6",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 243.80,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "NIC Allowance - Month 6",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -243.80,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1648166400000+0000)\/",
+      "Status": "VOIDED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1653032746140+0000)\/",
+      "ManualJournalID": "70d00782-4dd5-4a30-ae79-f61c772d1556",
+      "Narration": "Sent from BrightPay",
+      "JournalLines": [
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 1160.00,
+          "AccountCode": "7003",
+          "Tracking": [],
+          "AccountID": "0214c075-3c1a-4706-abff-49bac7da4598",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -343.40,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -929.76,
+          "AccountCode": "2220",
+          "Tracking": [],
+          "AccountID": "1df5acf5-3cb7-4cb7-9f14-f376eadd5a72",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 113.16,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1646956800000+0000)\/",
+      "Status": "VOIDED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1653032787290+0000)\/",
+      "ManualJournalID": "cf4e47bc-ce95-458d-8640-27762f710a61",
+      "Narration": "Sent from BrightPay",
+      "JournalLines": [
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 1160.00,
+          "AccountCode": "7003",
+          "Tracking": [],
+          "AccountID": "0214c075-3c1a-4706-abff-49bac7da4598",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -343.60,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -929.56,
+          "AccountCode": "2220",
+          "Tracking": [],
+          "AccountID": "1df5acf5-3cb7-4cb7-9f14-f376eadd5a72",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 113.16,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1625097600000+0000)\/",
+      "Status": "VOIDED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1654003076273+0000)\/",
+      "ManualJournalID": "aba4c77f-84f3-4e00-95dd-b406b469e2e1",
+      "Narration": "Reversal of: Subscriptions Accrual - 30 June",
+      "JournalLines": [
+        {
+          "Description": "Subscriptions Accrual - 30 June",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -3.00,
+          "AccountCode": "8201",
+          "Tracking": [],
+          "AccountID": "fefb50be-1f17-47ab-a91d-d3729c99705c",
+          "IsBlank": false
+        },
+        {
+          "Description": "Subscriptions Accrual - 30 June",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 3.00,
+          "AccountCode": "2109",
+          "Tracking": [],
+          "AccountID": "b874e484-466b-4ec6-bf5c-684fe99b010c",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1649376000000+0000)\/",
+      "Status": "VOIDED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1654072480437+0000)\/",
+      "ManualJournalID": "1a9a4c03-8134-4dca-bbe3-1701290e5c9b",
+      "Narration": "Joseph Rush - Net Wages Discrepancy",
+      "JournalLines": [
+        {
+          "Description": "Joseph Rush - Net Wages Discrepancy",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -8.31,
+          "AccountCode": "7003",
+          "Tracking": [],
+          "AccountID": "0214c075-3c1a-4706-abff-49bac7da4598",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush - Net Wages Discrepancy",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 8.31,
+          "AccountCode": "2220",
+          "Tracking": [],
+          "AccountID": "1df5acf5-3cb7-4cb7-9f14-f376eadd5a72",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1649376000000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1654521977333+0000)\/",
+      "ManualJournalID": "b15a3f18-920c-4f62-8fc5-8d0aa57fda5c",
+      "Narration": "Sent from BrightPay",
+      "JournalLines": [
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 1160.00,
+          "AccountCode": "7003",
+          "Tracking": [],
+          "AccountID": "0214c075-3c1a-4706-abff-49bac7da4598",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -360.45,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -921.45,
+          "AccountCode": "2220",
+          "Tracking": [],
+          "AccountID": "1df5acf5-3cb7-4cb7-9f14-f376eadd5a72",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 121.90,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1650585600000+0000)\/",
+      "Status": "VOIDED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1654522158557+0000)\/",
+      "ManualJournalID": "1b21fd45-a37b-44a9-9f07-2e1a6262ea38",
+      "Narration": "Sent from BrightPay",
+      "JournalLines": [
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 1160.00,
+          "AccountCode": "7003",
+          "Tracking": [],
+          "AccountID": "0214c075-3c1a-4706-abff-49bac7da4598",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -360.45,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -921.45,
+          "AccountCode": "2220",
+          "Tracking": [],
+          "AccountID": "1df5acf5-3cb7-4cb7-9f14-f376eadd5a72",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 121.90,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1649376000000+0000)\/",
+      "Status": "VOIDED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1654522271810+0000)\/",
+      "ManualJournalID": "e5c326f6-14e2-49de-a821-04af62b81184",
+      "Narration": "Sent from BrightPay",
+      "JournalLines": [
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 1160.00,
+          "AccountCode": "7003",
+          "Tracking": [],
+          "AccountID": "0214c075-3c1a-4706-abff-49bac7da4598",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -360.45,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -921.45,
+          "AccountCode": "2220",
+          "Tracking": [],
+          "AccountID": "1df5acf5-3cb7-4cb7-9f14-f376eadd5a72",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 121.90,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1654214400000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1654522459997+0000)\/",
+      "ManualJournalID": "50dc76e3-c59d-4bb5-b0bd-9a198d758827",
+      "Narration": "Sent from BrightPay",
+      "JournalLines": [
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 1160.00,
+          "AccountCode": "7003",
+          "Tracking": [],
+          "AccountID": "0214c075-3c1a-4706-abff-49bac7da4598",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -360.45,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -921.45,
+          "AccountCode": "2220",
+          "Tracking": [],
+          "AccountID": "1df5acf5-3cb7-4cb7-9f14-f376eadd5a72",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 121.90,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1648684800000+0000)\/",
+      "Status": "VOIDED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1655117137957+0000)\/",
+      "ManualJournalID": "ca559931-091a-4835-985c-efe428970621",
+      "Narration": "March 2022 - Month End Stock Valuation",
+      "JournalLines": [
+        {
+          "Description": "March 2022 - Month End Stock Valuation",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -18140.00,
+          "AccountCode": "5005",
+          "Tracking": [],
+          "AccountID": "5fb15f78-0604-49be-b054-bd05ea018130",
+          "IsBlank": false
+        },
+        {
+          "Description": "March 2022 - Month End Stock Valuation",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 18140.00,
+          "AccountCode": "1011",
+          "Tracking": [],
+          "AccountID": "33fbfce8-5cc8-440e-84b8-7a5a5f8c6edd",
+          "IsBlank": false
+        },
+        {
+          "Description": "March 2022 - Month End Stock Valuation",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 24182.00,
+          "AccountCode": "1011",
+          "Tracking": [],
+          "AccountID": "33fbfce8-5cc8-440e-84b8-7a5a5f8c6edd",
+          "IsBlank": false
+        },
+        {
+          "Description": "March 2022 - Month End Stock Valuation",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -24182.00,
+          "AccountCode": "5006",
+          "Tracking": [],
+          "AccountID": "8662d596-1e4b-4978-93d5-0b42cd21ce7c",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1648684800000+0000)\/",
+      "Status": "VOIDED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1655117141080+0000)\/",
+      "ManualJournalID": "21b0ecab-c0a4-471d-9c95-3dc85df8b0b7",
+      "Narration": "March 2022 - Month End Stock Valuation",
+      "JournalLines": [
+        {
+          "Description": "March 2022 - Month End Stock Valuation",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 28464.00,
+          "AccountCode": "1011",
+          "Tracking": [],
+          "AccountID": "33fbfce8-5cc8-440e-84b8-7a5a5f8c6edd",
+          "IsBlank": false
+        },
+        {
+          "Description": "March 2022 - Month End Stock Valuation",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -70786.00,
+          "AccountCode": "5006",
+          "Tracking": [],
+          "AccountID": "8662d596-1e4b-4978-93d5-0b42cd21ce7c",
+          "IsBlank": false
+        },
+        {
+          "Description": "March 2022 - Month End Stock Valuation",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 42322.00,
+          "AccountCode": "5005",
+          "Tracking": [],
+          "AccountID": "5fb15f78-0604-49be-b054-bd05ea018130",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1648684800000+0000)\/",
+      "Status": "VOIDED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1655118362030+0000)\/",
+      "ManualJournalID": "f48ca8dc-9a13-4937-8990-2685924c62b5",
+      "Narration": "March 2022 - Month End Stock Valuation (2)",
+      "JournalLines": [
+        {
+          "Description": "March 2022 - Month End Stock Valuation (2)",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -24182.00,
+          "AccountCode": "1011",
+          "Tracking": [],
+          "AccountID": "33fbfce8-5cc8-440e-84b8-7a5a5f8c6edd",
+          "IsBlank": false
+        },
+        {
+          "Description": "March 2022 - Month End Stock Valuation (2)",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -18140.00,
+          "AccountCode": "5005",
+          "Tracking": [],
+          "AccountID": "5fb15f78-0604-49be-b054-bd05ea018130",
+          "IsBlank": false
+        },
+        {
+          "Description": "March 2022 - Month End Stock Valuation (2)",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 42322.00,
+          "AccountCode": "5006",
+          "Tracking": [],
+          "AccountID": "8662d596-1e4b-4978-93d5-0b42cd21ce7c",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": false,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1646006400000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1655118797837+0000)\/",
+      "ManualJournalID": "730fa2b8-9c81-4b79-ba70-a523e8338325",
+      "Narration": "February 2022 - Month End Stock Valuation",
+      "JournalLines": [
+        {
+          "Description": "February 2022 - Month End Stock Valuation",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 24182.00,
+          "AccountCode": "1011",
+          "Tracking": [],
+          "AccountID": "33fbfce8-5cc8-440e-84b8-7a5a5f8c6edd",
+          "IsBlank": false
+        },
+        {
+          "Description": "February 2022 - Month End Stock Valuation",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 18140.00,
+          "AccountCode": "5005",
+          "Tracking": [],
+          "AccountID": "5fb15f78-0604-49be-b054-bd05ea018130",
+          "IsBlank": false
+        },
+        {
+          "Description": "February 2022 - Month End Stock Valuation",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -42322.00,
+          "AccountCode": "5006",
+          "Tracking": [],
+          "AccountID": "8662d596-1e4b-4978-93d5-0b42cd21ce7c",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": false,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1648684800000+0000)\/",
+      "Status": "VOIDED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1655374099637+0000)\/",
+      "ManualJournalID": "0afd94e3-5fd5-48e1-a1c5-e8080b10ff68",
+      "Narration": "March 2022 - Month End Stock Valuation Flush",
+      "JournalLines": [
+        {
+          "Description": "March 2022 - Month End Stock Valuation Flush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -18140.00,
+          "AccountCode": "5005",
+          "Tracking": [],
+          "AccountID": "5fb15f78-0604-49be-b054-bd05ea018130",
+          "IsBlank": false
+        },
+        {
+          "Description": "March 2022 - Month End Stock Valuation Flush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 42322.00,
+          "AccountCode": "5006",
+          "Tracking": [],
+          "AccountID": "8662d596-1e4b-4978-93d5-0b42cd21ce7c",
+          "IsBlank": false
+        },
+        {
+          "Description": "March 2022 - Month End Stock Valuation Flush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -24182.00,
+          "AccountCode": "5000",
+          "Tracking": [],
+          "AccountID": "b5020e46-e1da-498c-bd63-548c5f5b2e9e",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": false,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1655424000000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1655906590350+0000)\/",
+      "ManualJournalID": "d06b9cac-8846-4bac-b9b0-b7e001d7c40f",
+      "Narration": "Sent from BrightPay",
+      "JournalLines": [
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 1160.00,
+          "AccountCode": "7003",
+          "Tracking": [],
+          "AccountID": "0214c075-3c1a-4706-abff-49bac7da4598",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -346.25,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -935.65,
+          "AccountCode": "2220",
+          "Tracking": [],
+          "AccountID": "1df5acf5-3cb7-4cb7-9f14-f376eadd5a72",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 121.90,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1653004800000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1655971012873+0000)\/",
+      "ManualJournalID": "cb4e3fc0-b7c3-4c22-a224-a4850979d4c5",
+      "Narration": "Sent from BrightPay",
+      "JournalLines": [
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 1160.00,
+          "AccountCode": "7003",
+          "Tracking": [],
+          "AccountID": "0214c075-3c1a-4706-abff-49bac7da4598",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -360.45,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -921.45,
+          "AccountCode": "2220",
+          "Tracking": [],
+          "AccountID": "1df5acf5-3cb7-4cb7-9f14-f376eadd5a72",
+          "IsBlank": false
+        },
+        {
+          "Description": "Joseph Rush",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 121.90,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1653955200000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1655974275703+0000)\/",
+      "ManualJournalID": "c8bac296-7dc2-42ad-981c-b8e1df0f7384",
+      "Narration": "NIC Allowance - Month 2 - 2022",
+      "JournalLines": [
+        {
+          "Description": "NIC Allowance - Month 2",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 365.70,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "NIC Allowance - Month 2",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -365.70,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": false,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1625097600000+0000)\/",
+      "Status": "VOIDED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1657183630263+0000)\/",
+      "ManualJournalID": "64f4139e-04ad-4689-91ff-d456fe51489f",
+      "Narration": "Duplicate PAYE write-off",
+      "JournalLines": [
+        {
+          "Description": "Duplicate PAYE write-off",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 230.24,
+          "AccountCode": "2220",
+          "Tracking": [],
+          "AccountID": "1df5acf5-3cb7-4cb7-9f14-f376eadd5a72",
+          "IsBlank": false
+        },
+        {
+          "Description": "Duplicate PAYE write-off",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -230.24,
+          "AccountCode": "7003",
+          "Tracking": [],
+          "AccountID": "0214c075-3c1a-4706-abff-49bac7da4598",
+          "IsBlank": false
+        },
+        {
+          "Description": "Duplicate PAYE write-off",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 344.52,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "Duplicate PAYE write-off",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -344.52,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1625097600000+0000)\/",
+      "Status": "VOIDED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1657184352020+0000)\/",
+      "ManualJournalID": "53935c0a-a04a-446b-9ce5-10901b27c4ee",
+      "Narration": "Duplicate PAYE write-off",
+      "JournalLines": [
+        {
+          "Description": "Duplicate PAYE write-off",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 230.24,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "Duplicate PAYE write-off",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -230.24,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1625097600000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1657185700087+0000)\/",
+      "ManualJournalID": "c5dd6aee-9f7e-4f0d-8911-57e9f98ea823",
+      "Narration": "Duplicate wages & PAYE write-off",
+      "JournalLines": [
+        {
+          "Description": "Duplicate wages & PAYE write-off",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 929.76,
+          "AccountCode": "2220",
+          "Tracking": [],
+          "AccountID": "1df5acf5-3cb7-4cb7-9f14-f376eadd5a72",
+          "IsBlank": false
+        },
+        {
+          "Description": "Duplicate wages & PAYE write-off",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -929.76,
+          "AccountCode": "7003",
+          "Tracking": [],
+          "AccountID": "0214c075-3c1a-4706-abff-49bac7da4598",
+          "IsBlank": false
+        },
+        {
+          "Description": "Duplicate wages & PAYE write-off",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 117.08,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "Duplicate wages & PAYE write-off",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -117.08,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1648684800000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1662021290893+0000)\/",
+      "ManualJournalID": "85d9693e-55dc-4951-b42e-92ec1ab19c2e",
+      "Narration": "March 2022 - Month End Stock Valuation",
+      "JournalLines": [
+        {
+          "Description": "March 2022 - Month End Stock Valuation",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 28464.00,
+          "AccountCode": "1011",
+          "Tracking": [],
+          "AccountID": "33fbfce8-5cc8-440e-84b8-7a5a5f8c6edd",
+          "IsBlank": false
+        },
+        {
+          "Description": "March 2022 - Month End Stock Valuation",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -28464.00,
+          "AccountCode": "5006",
+          "Tracking": [],
+          "AccountID": "8662d596-1e4b-4978-93d5-0b42cd21ce7c",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": false,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1656547200000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1662021475483+0000)\/",
+      "ManualJournalID": "af39d3a5-6e08-44fc-861e-dfe0705175ab",
+      "Narration": "June 2022 - Month End Stock Valuation",
+      "JournalLines": [
+        {
+          "Description": "June 2022 - Month End Stock Valuation",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 17214.00,
+          "AccountCode": "1011",
+          "Tracking": [],
+          "AccountID": "33fbfce8-5cc8-440e-84b8-7a5a5f8c6edd",
+          "IsBlank": false
+        },
+        {
+          "Description": "June 2022 - Month End Stock Valuation",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -17214.00,
+          "AccountCode": "5006",
+          "Tracking": [],
+          "AccountID": "8662d596-1e4b-4978-93d5-0b42cd21ce7c",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": false,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1656547200000+0000)\/",
+      "Status": "VOIDED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1662023446553+0000)\/",
+      "ManualJournalID": "5dfe6ee3-b77d-4af8-98e1-27d3fb2c5973",
+      "Narration": "NIC Allowance - Month 3 - 2022",
+      "JournalLines": [
+        {
+          "Description": "NIC Allowance - Month 3",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 243.80,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "NIC Allowance - Month 3",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -243.80,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        },
+        {
+          "Description": "NIC Allowance - Month 3 - to correct last year's difference in PAYE",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -14.63,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "NIC Allowance - Month 3 - to correct last year's difference in PAYE",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 14.63,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": false,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1656547200000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1662115611637+0000)\/",
+      "ManualJournalID": "2f545481-02cf-4124-9a62-b93ba3a55bb3",
+      "Narration": "PAYE adjustment",
+      "JournalLines": [
+        {
+          "Description": "Correct PAYE liability due at y/e - reverse adj. posted 1.07.21",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -117.08,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "Correct PAYE liability due at y/e - reverse adj. posted 1.07.21",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 117.08,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1656547200000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1662115976703+0000)\/",
+      "ManualJournalID": "01762921-6376-4524-b4cd-a809829b4609",
+      "Narration": "VAT adjustment",
+      "JournalLines": [
+        {
+          "Description": "VAT adjustment - adjust historical difference",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 203.53,
+          "AccountCode": "2202",
+          "Tracking": [],
+          "AccountID": "f877dc48-15f2-4f5c-a657-0be4b41bb562",
+          "IsBlank": false
+        },
+        {
+          "Description": "VAT adjustment - adjust historical difference",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -203.53,
+          "AccountCode": "5000",
+          "Tracking": [],
+          "AccountID": "b5020e46-e1da-498c-bd63-548c5f5b2e9e",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1656547200000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1662118568180+0000)\/",
+      "ManualJournalID": "4d01c263-bc49-424f-b520-0344cbf7de10",
+      "Narration": "NIC Allowance - Month 3 - 2022",
+      "JournalLines": [
+        {
+          "Description": "NIC Allowance - Month 3 (split 2 - June fortnightly fell into Jul)",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 121.90,
+          "AccountCode": "2210",
+          "Tracking": [],
+          "AccountID": "8c834be4-f1f5-49d5-96c6-e91ea373064d",
+          "IsBlank": false
+        },
+        {
+          "Description": "NIC Allowance - Month 3 (split 2 - June fortnightly fell into Jul)",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -121.90,
+          "AccountCode": "7006",
+          "Tracking": [],
+          "AccountID": "92c829f7-7dbe-4c3f-984c-38faf74e2ff8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": false,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1656547200000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1662543516470+0000)\/",
+      "ManualJournalID": "a4492f3b-81ff-4a95-a8be-dfd0639321f4",
+      "Narration": "Dividends",
+      "JournalLines": [
+        {
+          "Description": "Dividends",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 2000.00,
+          "AccountCode": "472",
+          "Tracking": [],
+          "AccountID": "bcb7dee0-78d7-4c8c-854f-bf6af3fd04fb",
+          "IsBlank": false
+        },
+        {
+          "Description": "Dividends",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -2000.00,
+          "AccountCode": "2504",
+          "Tracking": [],
+          "AccountID": "b2463bb5-c289-437f-bdae-36cbc4bfb6f8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1648684800000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1662543527937+0000)\/",
+      "ManualJournalID": "9b368ab0-6562-488f-89a1-9d98f0bae2d1",
+      "Narration": "Dividends",
+      "JournalLines": [
+        {
+          "Description": "Dividends",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 2000.00,
+          "AccountCode": "472",
+          "Tracking": [],
+          "AccountID": "bcb7dee0-78d7-4c8c-854f-bf6af3fd04fb",
+          "IsBlank": false
+        },
+        {
+          "Description": "Dividends",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -2000.00,
+          "AccountCode": "2504",
+          "Tracking": [],
+          "AccountID": "b2463bb5-c289-437f-bdae-36cbc4bfb6f8",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1656547200000+0000)\/",
+      "Status": "POSTED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1662544306083+0000)\/",
+      "ManualJournalID": "17f2f98d-448e-4b76-a7a5-3e24321a1431",
+      "Narration": "Corporation tax",
+      "JournalLines": [
+        {
+          "Description": "Corporation tax",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 14758.44,
+          "AccountCode": "7910",
+          "Tracking": [],
+          "AccountID": "15ee60a6-5a27-4911-a6ba-8b60c83aaf2b",
+          "IsBlank": false
+        },
+        {
+          "Description": "Corporation tax",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -14758.44,
+          "AccountCode": "2300",
+          "Tracking": [],
+          "AccountID": "88653815-47df-44b7-9613-efef25fb1890",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1656547200000+0000)\/",
+      "Status": "VOIDED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1675334752970+0000)\/",
+      "ManualJournalID": "0d858be6-2142-468a-942b-565f87cfd12f",
+      "Narration": "Stock Valuation",
+      "JournalLines": [
+        {
+          "Description": "June 2022 - Month End Stock Valuation - May purchases",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 264520.46,
+          "AccountCode": "1011",
+          "Tracking": [],
+          "AccountID": "33fbfce8-5cc8-440e-84b8-7a5a5f8c6edd",
+          "IsBlank": false
+        },
+        {
+          "Description": "June 2022 - Month End Stock Valuation - May purchases",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -264520.46,
+          "AccountCode": "5006",
+          "Tracking": [],
+          "AccountID": "8662d596-1e4b-4978-93d5-0b42cd21ce7c",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": false,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1656547200000+0000)\/",
+      "Status": "VOIDED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1675335070407+0000)\/",
+      "ManualJournalID": "5206c8d2-f18e-428b-b4a5-f37f1e4f9a62",
+      "Narration": "y/e adj",
+      "JournalLines": [
+        {
+          "Description": "y/e adj",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -264520.46,
+          "AccountCode": "1011",
+          "Tracking": [],
+          "AccountID": "33fbfce8-5cc8-440e-84b8-7a5a5f8c6edd",
+          "IsBlank": false
+        },
+        {
+          "Description": "y/e adj",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 264520.46,
+          "AccountCode": "3200",
+          "Tracking": [],
+          "AccountID": "63ecc6c2-65af-4f8c-be70-f3a133c862b6",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1656547200000+0000)\/",
+      "Status": "DELETED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1675860070243+0000)\/",
+      "ManualJournalID": "838150cc-2e88-4e4a-9df9-c19c0da1bf4d",
+      "Narration": "Dividends - Apr to Jun",
+      "JournalLines": [
+        {
+          "Description": "Dividends",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 6349.55,
+          "AccountCode": "472",
+          "Tracking": [],
+          "AccountID": "bcb7dee0-78d7-4c8c-854f-bf6af3fd04fb",
+          "IsBlank": false
+        },
+        {
+          "Description": "Dividends",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -1047.50,
+          "AccountCode": "2507",
+          "Tracking": [],
+          "AccountID": "9bd960e5-2da2-4d22-b957-7bf0982e3ac8",
+          "IsBlank": false
+        },
+        {
+          "Description": "Dividends",
+          "TaxAmount": 0.00,
+          "LineAmount": 0.00,
+          "Tracking": [],
+          "AccountID": "00000000-0000-0000-0000-000000000000",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    },
+    {
+      "Date": "\/Date(1646006400000+0000)\/",
+      "Status": "DELETED",
+      "LineAmountTypes": "NoTax",
+      "UpdatedDateUTC": "\/Date(1682688796123+0000)\/",
+      "ManualJournalID": "fceab130-c160-49c6-aef9-3668f1e347c5",
+      "Narration": "Stock Adjustment - Based on Stock Report - February 28",
+      "JournalLines": [
+        {
+          "Description": "Stock Adjustment - Based on Stock Report - 30 June",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": 24182.00,
+          "AccountCode": "1011",
+          "Tracking": [],
+          "AccountID": "33fbfce8-5cc8-440e-84b8-7a5a5f8c6edd",
+          "IsBlank": false
+        },
+        {
+          "Description": "Stock Adjustment - Based on Stock Report - 30 June",
+          "TaxType": "NONE",
+          "TaxAmount": 0.00,
+          "LineAmount": -24182.00,
+          "AccountCode": "5006",
+          "Tracking": [],
+          "AccountID": "8662d596-1e4b-4978-93d5-0b42cd21ce7c",
+          "IsBlank": false
+        }
+      ],
+      "ShowOnCashBasisReports": true,
+      "HasAttachments": false
+    }
+  ]
+}

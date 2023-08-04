@@ -1,0 +1,7 @@
+{
+  "Id": "f0763847-4ed1-463a-9e6d-7688e5e2cf86",
+  "Status": "OK",
+  "ProviderName": "TestApp2",
+  "DateTimeUTC": "\/Date(1690984095132)\/",
+  "PurchaseOrders": []
+}

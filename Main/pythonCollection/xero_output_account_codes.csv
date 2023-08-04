@@ -1,0 +1,178 @@
+Codes,Name
+,Wise GBP
+1000,Wise - USD Clearing Account
+1001,Stock - Winter 2012
+1002,Stock - Winter 2013
+1003,Stock - Summer 2014
+1004,Stock - Winter 2014
+1005,Stock - Summer 2015
+1006,Stock - Winter 2015
+1007,Stock - Winter 2019 (Sodilog)
+1008,Stock - Summer 2017
+1010,Stock - Archive
+1011,Stock
+1012,Stock Rounding Correction
+1013,Stock (In Transit)
+1014,Wise - GBP Clearing Account
+1015,Wise - EUR Clearing Account
+1100,Debtors Control Account
+11005,Sodilog Financial Situation
+1101,Other Debtors
+1102,Rent deposit held
+1103,Prepayment
+1105,Sodilog Monies Due - 2012
+1106,Sodilog Monies Due - 2013
+1107,Sodilog Monies Due - Summer 2014
+1108,Sodilog Monies Due - Winter 2014
+1109,Sodilog Debtors
+1110,Sodilog Debtors - 2013
+1111,Sodilog Debtors - Summer 2014
+1112,Sodilog Debtors - Winter 2014
+1113,Sodilog Bad Debt Provision
+1114,Sodilog Bad Debt Provision - 2013
+1115,Sodilog Bad Debt Provision - Summer 2014
+1116,Sodilog Bad Debt Provision - Winter 2014
+1117,Web Sales (Recorded with Sodilog)
+1118,Timing Adjustment
+1119,Rent deposit paid
+1205,GBP
+1210,Euro
+1211,HSBC Credit Card
+1230,Petty Cash
+210,Shopify sales
+2100,Creditors Control Account
+2101,Other Creditors
+2102,Other creditors - Sodilog
+2103,Shopify Funding
+2109,Accruals and deferred income
+220,Shopify shipping revenue
+2202,VAT Liability
+2210,PAYE/NI Liability
+2211,PAYE/NIC Historic Debt (to 2019)
+2220,Net Wages
+230,Shopify refunds
+2300,Corporation Tax Liability
+2301,Corporation Tax Historic Debt (to 2019)
+2500,Directors loan account
+2501,USA - loan account
+2502,Hong Kong - loan account
+2503,Jenny Thornton loan
+2504,Directors Loan Account - S Rush
+2505,Directors Loan Account - N Durand
+2506,N Durand - additional monies drawn
+2507,Loan to Tara Knapp
+2508,Loan Account - Joe Rush
+2509,Loan Account - Tara Knapp
+2600,Covid-19 Bounce Back Loan
+2601,Covid-19 Bounce Back Loan - Non-current
+30,Office Equipment
+3000,Ordinary Shares
+31,Office Equipment Depreciation
+3200,Profit and Loss Account
+40,Furniture and Fixtures
+4000,Sales
+4001,Commission Sales
+4002,Web Sales
+4003,Shipping Fees
+4004,Web Sales - Ankorstore
+4004-1,Shipping Fees - Ankorstore
+4006,Web Sales - Mirakl
+4007,Web Sales - Chicmi
+405,Bank charges (Wise)
+41,Furniture/Fixture Depreciation
+4500,HMRC interest received
+472,Dividends
+495,Shopify transaction fees
+497,Bank Revaluations
+498,Unrealised Currency Gains
+499,Realised Currency Gains
+5000,Purchases - Footwear
+50000,Sodilog Cost of Sales
+50001,Sodilog Fees
+5001,Shipment Management Fees
+5002,Miscellaneous Purchases
+5003,Import Duty & Charges
+5004,Warehousing Costs
+5005,Opening Stock
+5006,Closing Stock
+5007,Product Development
+5010,Exchange rate variance
+6000,Bad Debt Provision
+6001,Bad debt
+6100,Sales Commissions
+6101,Web Sales Commissions
+6102,Ankorstore Commissions
+6103,Secret Sales Commissions
+6104,Chicmi Commissions
+612,Shopify pending payments
+6200,Sales Promotions
+6201,Advertising
+6202,Charges (Interest etc) re overdue invoices
+6203,Charges re Think Inc. dispute
+6204,Graphic Design costs
+6205,Shopify Costs
+6900,Miscellaneous Expenses
+6901,Shipping & Logistics Costs
+6902,Storage Charges
+7002,Directors Salaries
+7003,Staff Salaries
+7006,Employers N.I.
+7007,Directors Employers NI
+7008,Pension Contributions
+7012,Recruitment cost
+7100,Rent
+7103,General Rates
+7200,Electricity
+7400,Travel - International
+7401,Travel - National
+7402,Hotels
+7403,UK Entertaining
+7404,UK Donation
+7406,Subsistence
+7501,Postage and Carriage
+7502,Telephone
+7504,Office Stationery
+7506,Computer Software
+7600,Legal Fees
+7601,Audit and Accountancy Fees
+7603,Professional Fees
+7604,Licencing costs
+7605,Insurance
+7606,Administrative Costs
+7607,Administrative Costs - USA
+7800,Repairs and Renewals
+7801,Cleaning
+7802,Laundry
+7900,Bank Interest Paid
+7901,Bank Charges
+7902,Currency Charges
+7903,PAYE late payment interest
+7904,Companies House Late Filing Fees
+7905,Settlement Fees
+7906,Corporation Tax Late Payment Interest
+7907,Covid-19 Bounce Back Loan Interest
+7908,Paypal Fees
+7909,VAT Late Payment Interest
+7910,Corporation Tax
+7911,Stripe Fees
+7920,Bank Charges - USD Wise
+7921,Bank Charges - EUR Wise
+7922,Bank Charges - GBP Wise
+8000,Depreciation: Office Equipment
+8001,Depreciation: Fixtures and Fittings
+801,Unpaid Expense Claims
+802,Shopify tax collected
+803,Wages Payable
+807,Shopify gift cards
+814,Wages Payable - Payroll
+8201,Subscriptions
+8202,Clothing Costs
+8205,Refreshments
+8300,Profit/Loss on sale
+840,Historical Adjustment
+858,Pensions Payable
+860,Rounding
+868,Earnings Orders Payable
+877,Tracking Transfers
+947,Student Loan Deductions Payable
+9998,Suspense

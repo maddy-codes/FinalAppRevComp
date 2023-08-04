@@ -1,0 +1,455 @@
+Date,Status,LineAmountType,Narration,AccountCode,LineAmount,Description,ManualJournalID
+2021-07-02,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,9ddc0a60-d54a-4c12-a7fa-844eae1c5c51
+2021-07-02,POSTED,NoTax,Sent from BrightPay,2210,-343.6,Joseph Rush,9ddc0a60-d54a-4c12-a7fa-844eae1c5c51
+2021-07-02,POSTED,NoTax,Sent from BrightPay,2220,-929.56,Joseph Rush,9ddc0a60-d54a-4c12-a7fa-844eae1c5c51
+2021-07-02,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,9ddc0a60-d54a-4c12-a7fa-844eae1c5c51
+2021-07-16,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,063b53f8-9fe8-49c1-b8a2-013af06d974d
+2021-07-16,POSTED,NoTax,Sent from BrightPay,2210,-343.4,Joseph Rush,063b53f8-9fe8-49c1-b8a2-013af06d974d
+2021-07-16,POSTED,NoTax,Sent from BrightPay,2220,-929.76,Joseph Rush,063b53f8-9fe8-49c1-b8a2-013af06d974d
+2021-07-16,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,063b53f8-9fe8-49c1-b8a2-013af06d974d
+2021-07-02,VOIDED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,4321e459-20f2-4629-a999-1354a10e7d62
+2021-07-02,VOIDED,NoTax,Sent from BrightPay,2210,-343.6,Joseph Rush,4321e459-20f2-4629-a999-1354a10e7d62
+2021-07-02,VOIDED,NoTax,Sent from BrightPay,2220,-929.56,Joseph Rush,4321e459-20f2-4629-a999-1354a10e7d62
+2021-07-02,VOIDED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,4321e459-20f2-4629-a999-1354a10e7d62
+2021-07-30,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,5143dad7-0f23-4079-b26c-190d556d8d9b
+2021-07-30,POSTED,NoTax,Sent from BrightPay,2210,-343.4,Joseph Rush,5143dad7-0f23-4079-b26c-190d556d8d9b
+2021-07-30,POSTED,NoTax,Sent from BrightPay,2220,-929.76,Joseph Rush,5143dad7-0f23-4079-b26c-190d556d8d9b
+2021-07-30,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,5143dad7-0f23-4079-b26c-190d556d8d9b
+2021-08-13,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,1a06afd3-d7d4-47e5-91eb-bf251988d4cc
+2021-08-13,POSTED,NoTax,Sent from BrightPay,2210,-343.4,Joseph Rush,1a06afd3-d7d4-47e5-91eb-bf251988d4cc
+2021-08-13,POSTED,NoTax,Sent from BrightPay,2220,-929.76,Joseph Rush,1a06afd3-d7d4-47e5-91eb-bf251988d4cc
+2021-08-13,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,1a06afd3-d7d4-47e5-91eb-bf251988d4cc
+2021-07-31,POSTED,NoTax,NIC Allowance - Month 4,2210,226.32,NIC Allowance - Month 4,2d3187fb-149b-460d-8edb-c043734bc8c3
+2021-07-31,POSTED,NoTax,NIC Allowance - Month 4,7006,-226.32,NIC Allowance - Month 4,2d3187fb-149b-460d-8edb-c043734bc8c3
+2021-08-27,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,98e39658-da63-49fe-8df9-e58ecd9e5014
+2021-08-27,POSTED,NoTax,Sent from BrightPay,2210,-343.4,Joseph Rush,98e39658-da63-49fe-8df9-e58ecd9e5014
+2021-08-27,POSTED,NoTax,Sent from BrightPay,2220,-929.76,Joseph Rush,98e39658-da63-49fe-8df9-e58ecd9e5014
+2021-08-27,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,98e39658-da63-49fe-8df9-e58ecd9e5014
+2021-08-31,POSTED,NoTax,NIC Allowance - Month 5,2210,226.32,NIC Allowance - Month 5,3c20cdc2-19ae-4bb6-ba7f-407e39247120
+2021-08-31,POSTED,NoTax,NIC Allowance - Month 5,7006,-226.32,NIC Allowance - Month 5,3c20cdc2-19ae-4bb6-ba7f-407e39247120
+2021-09-10,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,aa92821a-46cb-473b-aa76-4f46ddf83da2
+2021-09-10,POSTED,NoTax,Sent from BrightPay,2210,-343.4,Joseph Rush,aa92821a-46cb-473b-aa76-4f46ddf83da2
+2021-09-10,POSTED,NoTax,Sent from BrightPay,2220,-929.76,Joseph Rush,aa92821a-46cb-473b-aa76-4f46ddf83da2
+2021-09-10,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,aa92821a-46cb-473b-aa76-4f46ddf83da2
+2021-08-01,POSTED,NoTax,Reversal of: Movement of Purchases to Prepayment (New Futura Bills) - 30 June,1011,581299.59,Movement of Purchases to Prepayment (New Futura Bills) - 30 June,6dae7cf0-5d71-468c-b55c-3881652d816b
+2021-08-01,POSTED,NoTax,Reversal of: Movement of Purchases to Prepayment (New Futura Bills) - 30 June,1103,-581299.59,Movement of Purchases to Prepayment (New Futura Bills) - 30 June,6dae7cf0-5d71-468c-b55c-3881652d816b
+2021-09-24,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,858674d9-e71a-48f8-b06f-76c1e35fed36
+2021-09-24,POSTED,NoTax,Sent from BrightPay,2210,-343.6,Joseph Rush,858674d9-e71a-48f8-b06f-76c1e35fed36
+2021-09-24,POSTED,NoTax,Sent from BrightPay,2220,-929.56,Joseph Rush,858674d9-e71a-48f8-b06f-76c1e35fed36
+2021-09-24,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,858674d9-e71a-48f8-b06f-76c1e35fed36
+2021-10-08,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,c615cddb-4cbf-42c6-9d05-36a6932fc6e4
+2021-10-08,POSTED,NoTax,Sent from BrightPay,2210,-343.4,Joseph Rush,c615cddb-4cbf-42c6-9d05-36a6932fc6e4
+2021-10-08,POSTED,NoTax,Sent from BrightPay,2220,-929.76,Joseph Rush,c615cddb-4cbf-42c6-9d05-36a6932fc6e4
+2021-10-08,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,c615cddb-4cbf-42c6-9d05-36a6932fc6e4
+2021-09-30,POSTED,NoTax,NIC Allowance - Month 6,2210,226.32,NIC Allowance - Month 6,fbe77c49-fdf1-4d82-b833-5646f3498d3a
+2021-09-30,POSTED,NoTax,NIC Allowance - Month 6,7006,-226.32,NIC Allowance - Month 6,fbe77c49-fdf1-4d82-b833-5646f3498d3a
+2021-07-05,POSTED,NoTax,NIC Allowance - Month 3,2210,113.16,NIC Allowance - Month 3,1055f17b-b29a-4fbf-a491-ea42b951af6a
+2021-07-05,POSTED,NoTax,NIC Allowance - Month 3,7006,-113.16,NIC Allowance - Month 3,1055f17b-b29a-4fbf-a491-ea42b951af6a
+2021-10-22,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,9fd3cc83-86ef-4233-8ad6-0c2e5c4b6f91
+2021-10-22,POSTED,NoTax,Sent from BrightPay,2210,-343.4,Joseph Rush,9fd3cc83-86ef-4233-8ad6-0c2e5c4b6f91
+2021-10-22,POSTED,NoTax,Sent from BrightPay,2220,-929.76,Joseph Rush,9fd3cc83-86ef-4233-8ad6-0c2e5c4b6f91
+2021-10-22,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,9fd3cc83-86ef-4233-8ad6-0c2e5c4b6f91
+2021-11-05,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,01746d44-d885-46e5-9ba8-94b2167ce376
+2021-11-05,POSTED,NoTax,Sent from BrightPay,2210,-343.4,Joseph Rush,01746d44-d885-46e5-9ba8-94b2167ce376
+2021-11-05,POSTED,NoTax,Sent from BrightPay,2220,-929.76,Joseph Rush,01746d44-d885-46e5-9ba8-94b2167ce376
+2021-11-05,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,01746d44-d885-46e5-9ba8-94b2167ce376
+2021-11-19,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,a4cc3fdc-59aa-41bb-bfd4-def2d333a75b
+2021-11-19,POSTED,NoTax,Sent from BrightPay,2210,-343.4,Joseph Rush,a4cc3fdc-59aa-41bb-bfd4-def2d333a75b
+2021-11-19,POSTED,NoTax,Sent from BrightPay,2220,-929.76,Joseph Rush,a4cc3fdc-59aa-41bb-bfd4-def2d333a75b
+2021-11-19,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,a4cc3fdc-59aa-41bb-bfd4-def2d333a75b
+2021-12-03,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,d6602d5b-2999-4bc7-895f-aeb3b33be8e8
+2021-12-03,POSTED,NoTax,Sent from BrightPay,2210,-343.4,Joseph Rush,d6602d5b-2999-4bc7-895f-aeb3b33be8e8
+2021-12-03,POSTED,NoTax,Sent from BrightPay,2220,-929.76,Joseph Rush,d6602d5b-2999-4bc7-895f-aeb3b33be8e8
+2021-12-03,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,d6602d5b-2999-4bc7-895f-aeb3b33be8e8
+2021-12-17,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,27f5adba-b140-4106-ab26-398bb7530365
+2021-12-17,POSTED,NoTax,Sent from BrightPay,2210,-343.6,Joseph Rush,27f5adba-b140-4106-ab26-398bb7530365
+2021-12-17,POSTED,NoTax,Sent from BrightPay,2220,-929.56,Joseph Rush,27f5adba-b140-4106-ab26-398bb7530365
+2021-12-17,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,27f5adba-b140-4106-ab26-398bb7530365
+2022-01-14,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,049aa43b-14f2-43d3-a6f8-fa9ab3fded8a
+2022-01-14,POSTED,NoTax,Sent from BrightPay,2210,-343.4,Joseph Rush,049aa43b-14f2-43d3-a6f8-fa9ab3fded8a
+2022-01-14,POSTED,NoTax,Sent from BrightPay,2220,-929.76,Joseph Rush,049aa43b-14f2-43d3-a6f8-fa9ab3fded8a
+2022-01-14,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,049aa43b-14f2-43d3-a6f8-fa9ab3fded8a
+2021-12-31,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,c4a44541-6ac5-4d53-b82b-acde82570630
+2021-12-31,POSTED,NoTax,Sent from BrightPay,2210,-343.4,Joseph Rush,c4a44541-6ac5-4d53-b82b-acde82570630
+2021-12-31,POSTED,NoTax,Sent from BrightPay,2220,-929.76,Joseph Rush,c4a44541-6ac5-4d53-b82b-acde82570630
+2021-12-31,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,c4a44541-6ac5-4d53-b82b-acde82570630
+2022-01-28,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,1710a904-40cc-4e23-9f72-50f0db2c102f
+2022-01-28,POSTED,NoTax,Sent from BrightPay,2210,-343.4,Joseph Rush,1710a904-40cc-4e23-9f72-50f0db2c102f
+2022-01-28,POSTED,NoTax,Sent from BrightPay,2220,-929.76,Joseph Rush,1710a904-40cc-4e23-9f72-50f0db2c102f
+2022-01-28,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,1710a904-40cc-4e23-9f72-50f0db2c102f
+2022-02-11,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,312c8c63-cf96-4d26-9d81-70ebf7f7527e
+2022-02-11,POSTED,NoTax,Sent from BrightPay,2210,-343.4,Joseph Rush,312c8c63-cf96-4d26-9d81-70ebf7f7527e
+2022-02-11,POSTED,NoTax,Sent from BrightPay,2220,-929.76,Joseph Rush,312c8c63-cf96-4d26-9d81-70ebf7f7527e
+2022-02-11,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,312c8c63-cf96-4d26-9d81-70ebf7f7527e
+2022-02-25,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,ba79a9f7-45d5-444f-b53b-0e78f700603a
+2022-02-25,POSTED,NoTax,Sent from BrightPay,2210,-343.4,Joseph Rush,ba79a9f7-45d5-444f-b53b-0e78f700603a
+2022-02-25,POSTED,NoTax,Sent from BrightPay,2220,-929.76,Joseph Rush,ba79a9f7-45d5-444f-b53b-0e78f700603a
+2022-02-25,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,ba79a9f7-45d5-444f-b53b-0e78f700603a
+2022-03-11,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,01a333dd-63a4-4940-a5c4-85ab63ea5f7e
+2022-03-11,POSTED,NoTax,Sent from BrightPay,2210,-343.6,Joseph Rush,01a333dd-63a4-4940-a5c4-85ab63ea5f7e
+2022-03-11,POSTED,NoTax,Sent from BrightPay,2220,-929.56,Joseph Rush,01a333dd-63a4-4940-a5c4-85ab63ea5f7e
+2022-03-11,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,01a333dd-63a4-4940-a5c4-85ab63ea5f7e
+2021-07-01,VOIDED,NoTax,Reversal of: Movement of Closing Stock to Opening Stock - 1 July,5006,-18140.0,Stock Adjustment - Based on Stock Report - 30 June,bfe23fc9-056d-4306-abea-a6714ba272f3
+2021-07-01,VOIDED,NoTax,Reversal of: Movement of Closing Stock to Opening Stock - 1 July,5005,18140.0,Stock Adjustment - Based on Stock Report - 30 June,bfe23fc9-056d-4306-abea-a6714ba272f3
+2022-02-01,POSTED,NoTax,Movement of Stock - 2021 to Purchases - Footwear,5000,581299.59,Movement of Stock - 2021 to Purchases - Footwear,a787df3c-e535-4ca7-8d16-ce40950e4954
+2022-02-01,POSTED,NoTax,Movement of Stock - 2021 to Purchases - Footwear,1011,-581299.59,Movement of Stock - 2021 to Purchases - Footwear,a787df3c-e535-4ca7-8d16-ce40950e4954
+2021-07-01,VOIDED,NoTax,For Opening and Closing Stock - 1 July,5005,18140.0,For Opening and Closing Stock - 1 July,6405cba2-3035-4c63-8dc1-acd84de671e5
+2021-07-01,VOIDED,NoTax,For Opening and Closing Stock - 1 July,5006,-18140.0,For Opening and Closing Stock - 1 July,6405cba2-3035-4c63-8dc1-acd84de671e5
+2022-03-01,VOIDED,NoTax,Reversal: February 2022 - Month End Stock Valuation,1011,-42322.0,February 2022 - Month End Stock Valuation ,c593c048-0ea7-4992-ac5f-478b01ba061f
+2022-03-01,VOIDED,NoTax,Reversal: February 2022 - Month End Stock Valuation,5006,42322.0,February 2022 - Month End Stock Valuation ,c593c048-0ea7-4992-ac5f-478b01ba061f
+2022-03-31,VOIDED,NoTax,March 2022 - Month End Stock Valuation (test),1011,7678.0,February 2022 - Month End Stock Valuation ,31511a58-8e61-4cf0-a392-09d11dbfe8ce
+2022-03-31,VOIDED,NoTax,March 2022 - Month End Stock Valuation (test),5006,-7678.0,February 2022 - Month End Stock Valuation ,31511a58-8e61-4cf0-a392-09d11dbfe8ce
+2022-04-30,VOIDED,NoTax,Stock test,5005,50000.0,Stock test,3d80da15-b91a-4a5e-8650-b7b7c7366e5e
+2022-04-30,VOIDED,NoTax,Stock test,1011,-50000.0,Stock test,3d80da15-b91a-4a5e-8650-b7b7c7366e5e
+2022-04-30,VOIDED,NoTax,Stock test,1011,60000.0,Stock test,3d80da15-b91a-4a5e-8650-b7b7c7366e5e
+2022-04-30,VOIDED,NoTax,Stock test,5006,-60000.0,Stock test,3d80da15-b91a-4a5e-8650-b7b7c7366e5e
+2022-03-31,VOIDED,NoTax,Stock test,5005,42322.0,Stock test,d07339c5-e983-4cf2-a5f7-a32d7411168b
+2022-03-31,VOIDED,NoTax,Stock test,1011,-42322.0,Stock test,d07339c5-e983-4cf2-a5f7-a32d7411168b
+2022-03-31,VOIDED,NoTax,Stock test,1011,50000.0,Stock test,d07339c5-e983-4cf2-a5f7-a32d7411168b
+2022-03-31,VOIDED,NoTax,Stock test,5006,-50000.0,Stock test,d07339c5-e983-4cf2-a5f7-a32d7411168b
+2022-03-25,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,d3bdf354-5299-494d-ba06-f4fc65703cd5
+2022-03-25,POSTED,NoTax,Sent from BrightPay,2210,-343.4,Joseph Rush,d3bdf354-5299-494d-ba06-f4fc65703cd5
+2022-03-25,POSTED,NoTax,Sent from BrightPay,2220,-929.76,Joseph Rush,d3bdf354-5299-494d-ba06-f4fc65703cd5
+2022-03-25,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,d3bdf354-5299-494d-ba06-f4fc65703cd5
+2022-04-22,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,cf4976cd-7280-4294-920c-fe4e403f61f5
+2022-04-22,POSTED,NoTax,Sent from BrightPay,2210,-360.45,Joseph Rush,cf4976cd-7280-4294-920c-fe4e403f61f5
+2022-04-22,POSTED,NoTax,Sent from BrightPay,2220,-921.45,Joseph Rush,cf4976cd-7280-4294-920c-fe4e403f61f5
+2022-04-22,POSTED,NoTax,Sent from BrightPay,7006,121.9,Joseph Rush,cf4976cd-7280-4294-920c-fe4e403f61f5
+2022-05-06,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,4ff249cf-d218-442e-a97f-381c20b448a5
+2022-05-06,POSTED,NoTax,Sent from BrightPay,2210,-360.45,Joseph Rush,4ff249cf-d218-442e-a97f-381c20b448a5
+2022-05-06,POSTED,NoTax,Sent from BrightPay,2220,-921.45,Joseph Rush,4ff249cf-d218-442e-a97f-381c20b448a5
+2022-05-06,POSTED,NoTax,Sent from BrightPay,7006,121.9,Joseph Rush,4ff249cf-d218-442e-a97f-381c20b448a5
+2021-10-31,POSTED,NoTax,NIC Allowance - Month 7,2210,339.48,NIC Allowance - Month 6,42c1a43f-8f12-4c44-92bd-35f76fda88e4
+2021-10-31,POSTED,NoTax,NIC Allowance - Month 7,7006,-339.48,NIC Allowance - Month 6,42c1a43f-8f12-4c44-92bd-35f76fda88e4
+2021-11-30,POSTED,NoTax,NIC Allowance - Month 8,2210,226.32,NIC Allowance - Month 6,b031c80d-f44a-4b55-b686-66d79246669f
+2021-11-30,POSTED,NoTax,NIC Allowance - Month 8,7006,-226.32,NIC Allowance - Month 6,b031c80d-f44a-4b55-b686-66d79246669f
+2021-12-31,POSTED,NoTax,NIC Allowance - Month 9,2210,226.32,NIC Allowance - Month 6,7a801bbf-b4a8-4209-be7e-f47a5a1581f7
+2021-12-31,POSTED,NoTax,NIC Allowance - Month 9,7006,-226.32,NIC Allowance - Month 6,7a801bbf-b4a8-4209-be7e-f47a5a1581f7
+2022-01-31,POSTED,NoTax,NIC Allowance - Month 10,2210,226.32,NIC Allowance - Month 6,4a89cbd6-a41a-4f98-945e-86f9b272d21c
+2022-01-31,POSTED,NoTax,NIC Allowance - Month 10,7006,-226.32,NIC Allowance - Month 6,4a89cbd6-a41a-4f98-945e-86f9b272d21c
+2022-02-28,POSTED,NoTax,NIC Allowance - Month 11,2210,226.32,NIC Allowance - Month 6,c8f018fd-5036-4341-890b-7b4177eb7462
+2022-02-28,POSTED,NoTax,NIC Allowance - Month 11,7006,-226.32,NIC Allowance - Month 6,c8f018fd-5036-4341-890b-7b4177eb7462
+2022-03-31,POSTED,NoTax,NIC Allowance - Month 12,2210,226.32,NIC Allowance - Month 6,08ae9b2d-240f-4cc8-84f7-c511ed6043a2
+2022-03-31,POSTED,NoTax,NIC Allowance - Month 12,7006,-226.32,NIC Allowance - Month 6,08ae9b2d-240f-4cc8-84f7-c511ed6043a2
+2022-04-30,POSTED,NoTax,NIC Allowance - Month 1 - 2022,2210,243.8,NIC Allowance - Month 6,f6fa6973-4318-4743-9a45-2b346490a2ff
+2022-04-30,POSTED,NoTax,NIC Allowance - Month 1 - 2022,7006,-243.8,NIC Allowance - Month 6,f6fa6973-4318-4743-9a45-2b346490a2ff
+2022-03-25,VOIDED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,70d00782-4dd5-4a30-ae79-f61c772d1556
+2022-03-25,VOIDED,NoTax,Sent from BrightPay,2210,-343.4,Joseph Rush,70d00782-4dd5-4a30-ae79-f61c772d1556
+2022-03-25,VOIDED,NoTax,Sent from BrightPay,2220,-929.76,Joseph Rush,70d00782-4dd5-4a30-ae79-f61c772d1556
+2022-03-25,VOIDED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,70d00782-4dd5-4a30-ae79-f61c772d1556
+2022-03-11,VOIDED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,cf4e47bc-ce95-458d-8640-27762f710a61
+2022-03-11,VOIDED,NoTax,Sent from BrightPay,2210,-343.6,Joseph Rush,cf4e47bc-ce95-458d-8640-27762f710a61
+2022-03-11,VOIDED,NoTax,Sent from BrightPay,2220,-929.56,Joseph Rush,cf4e47bc-ce95-458d-8640-27762f710a61
+2022-03-11,VOIDED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,cf4e47bc-ce95-458d-8640-27762f710a61
+2021-07-01,VOIDED,NoTax,Reversal of: Subscriptions Accrual - 30 June,8201,-3.0,Subscriptions Accrual - 30 June,aba4c77f-84f3-4e00-95dd-b406b469e2e1
+2021-07-01,VOIDED,NoTax,Reversal of: Subscriptions Accrual - 30 June,2109,3.0,Subscriptions Accrual - 30 June,aba4c77f-84f3-4e00-95dd-b406b469e2e1
+2022-04-08,VOIDED,NoTax,Joseph Rush - Net Wages Discrepancy,7003,-8.31,Joseph Rush - Net Wages Discrepancy,1a9a4c03-8134-4dca-bbe3-1701290e5c9b
+2022-04-08,VOIDED,NoTax,Joseph Rush - Net Wages Discrepancy,2220,8.31,Joseph Rush - Net Wages Discrepancy,1a9a4c03-8134-4dca-bbe3-1701290e5c9b
+2022-04-08,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,b15a3f18-920c-4f62-8fc5-8d0aa57fda5c
+2022-04-08,POSTED,NoTax,Sent from BrightPay,2210,-360.45,Joseph Rush,b15a3f18-920c-4f62-8fc5-8d0aa57fda5c
+2022-04-08,POSTED,NoTax,Sent from BrightPay,2220,-921.45,Joseph Rush,b15a3f18-920c-4f62-8fc5-8d0aa57fda5c
+2022-04-08,POSTED,NoTax,Sent from BrightPay,7006,121.9,Joseph Rush,b15a3f18-920c-4f62-8fc5-8d0aa57fda5c
+2022-04-22,VOIDED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,1b21fd45-a37b-44a9-9f07-2e1a6262ea38
+2022-04-22,VOIDED,NoTax,Sent from BrightPay,2210,-360.45,Joseph Rush,1b21fd45-a37b-44a9-9f07-2e1a6262ea38
+2022-04-22,VOIDED,NoTax,Sent from BrightPay,2220,-921.45,Joseph Rush,1b21fd45-a37b-44a9-9f07-2e1a6262ea38
+2022-04-22,VOIDED,NoTax,Sent from BrightPay,7006,121.9,Joseph Rush,1b21fd45-a37b-44a9-9f07-2e1a6262ea38
+2022-04-08,VOIDED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,e5c326f6-14e2-49de-a821-04af62b81184
+2022-04-08,VOIDED,NoTax,Sent from BrightPay,2210,-360.45,Joseph Rush,e5c326f6-14e2-49de-a821-04af62b81184
+2022-04-08,VOIDED,NoTax,Sent from BrightPay,2220,-921.45,Joseph Rush,e5c326f6-14e2-49de-a821-04af62b81184
+2022-04-08,VOIDED,NoTax,Sent from BrightPay,7006,121.9,Joseph Rush,e5c326f6-14e2-49de-a821-04af62b81184
+2022-06-03,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,50dc76e3-c59d-4bb5-b0bd-9a198d758827
+2022-06-03,POSTED,NoTax,Sent from BrightPay,2210,-360.45,Joseph Rush,50dc76e3-c59d-4bb5-b0bd-9a198d758827
+2022-06-03,POSTED,NoTax,Sent from BrightPay,2220,-921.45,Joseph Rush,50dc76e3-c59d-4bb5-b0bd-9a198d758827
+2022-06-03,POSTED,NoTax,Sent from BrightPay,7006,121.9,Joseph Rush,50dc76e3-c59d-4bb5-b0bd-9a198d758827
+2022-03-31,VOIDED,NoTax,March 2022 - Month End Stock Valuation,5005,-18140.0,March 2022 - Month End Stock Valuation,ca559931-091a-4835-985c-efe428970621
+2022-03-31,VOIDED,NoTax,March 2022 - Month End Stock Valuation,1011,18140.0,March 2022 - Month End Stock Valuation,ca559931-091a-4835-985c-efe428970621
+2022-03-31,VOIDED,NoTax,March 2022 - Month End Stock Valuation,1011,24182.0,March 2022 - Month End Stock Valuation,ca559931-091a-4835-985c-efe428970621
+2022-03-31,VOIDED,NoTax,March 2022 - Month End Stock Valuation,5006,-24182.0,March 2022 - Month End Stock Valuation,ca559931-091a-4835-985c-efe428970621
+2022-03-31,VOIDED,NoTax,March 2022 - Month End Stock Valuation,1011,28464.0,March 2022 - Month End Stock Valuation,21b0ecab-c0a4-471d-9c95-3dc85df8b0b7
+2022-03-31,VOIDED,NoTax,March 2022 - Month End Stock Valuation,5006,-70786.0,March 2022 - Month End Stock Valuation,21b0ecab-c0a4-471d-9c95-3dc85df8b0b7
+2022-03-31,VOIDED,NoTax,March 2022 - Month End Stock Valuation,5005,42322.0,March 2022 - Month End Stock Valuation,21b0ecab-c0a4-471d-9c95-3dc85df8b0b7
+2022-03-31,VOIDED,NoTax,March 2022 - Month End Stock Valuation (2),1011,-24182.0,March 2022 - Month End Stock Valuation (2),f48ca8dc-9a13-4937-8990-2685924c62b5
+2022-03-31,VOIDED,NoTax,March 2022 - Month End Stock Valuation (2),5005,-18140.0,March 2022 - Month End Stock Valuation (2),f48ca8dc-9a13-4937-8990-2685924c62b5
+2022-03-31,VOIDED,NoTax,March 2022 - Month End Stock Valuation (2),5006,42322.0,March 2022 - Month End Stock Valuation (2),f48ca8dc-9a13-4937-8990-2685924c62b5
+2022-02-28,POSTED,NoTax,February 2022 - Month End Stock Valuation,1011,24182.0,February 2022 - Month End Stock Valuation,730fa2b8-9c81-4b79-ba70-a523e8338325
+2022-02-28,POSTED,NoTax,February 2022 - Month End Stock Valuation,5005,18140.0,February 2022 - Month End Stock Valuation,730fa2b8-9c81-4b79-ba70-a523e8338325
+2022-02-28,POSTED,NoTax,February 2022 - Month End Stock Valuation,5006,-42322.0,February 2022 - Month End Stock Valuation,730fa2b8-9c81-4b79-ba70-a523e8338325
+2022-03-31,VOIDED,NoTax,March 2022 - Month End Stock Valuation Flush,5005,-18140.0,March 2022 - Month End Stock Valuation Flush,0afd94e3-5fd5-48e1-a1c5-e8080b10ff68
+2022-03-31,VOIDED,NoTax,March 2022 - Month End Stock Valuation Flush,5006,42322.0,March 2022 - Month End Stock Valuation Flush,0afd94e3-5fd5-48e1-a1c5-e8080b10ff68
+2022-03-31,VOIDED,NoTax,March 2022 - Month End Stock Valuation Flush,5000,-24182.0,March 2022 - Month End Stock Valuation Flush,0afd94e3-5fd5-48e1-a1c5-e8080b10ff68
+2022-06-17,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,d06b9cac-8846-4bac-b9b0-b7e001d7c40f
+2022-06-17,POSTED,NoTax,Sent from BrightPay,2210,-346.25,Joseph Rush,d06b9cac-8846-4bac-b9b0-b7e001d7c40f
+2022-06-17,POSTED,NoTax,Sent from BrightPay,2220,-935.65,Joseph Rush,d06b9cac-8846-4bac-b9b0-b7e001d7c40f
+2022-06-17,POSTED,NoTax,Sent from BrightPay,7006,121.9,Joseph Rush,d06b9cac-8846-4bac-b9b0-b7e001d7c40f
+2022-05-20,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,cb4e3fc0-b7c3-4c22-a224-a4850979d4c5
+2022-05-20,POSTED,NoTax,Sent from BrightPay,2210,-360.45,Joseph Rush,cb4e3fc0-b7c3-4c22-a224-a4850979d4c5
+2022-05-20,POSTED,NoTax,Sent from BrightPay,2220,-921.45,Joseph Rush,cb4e3fc0-b7c3-4c22-a224-a4850979d4c5
+2022-05-20,POSTED,NoTax,Sent from BrightPay,7006,121.9,Joseph Rush,cb4e3fc0-b7c3-4c22-a224-a4850979d4c5
+2022-05-31,POSTED,NoTax,NIC Allowance - Month 2 - 2022,2210,365.7,NIC Allowance - Month 2,c8bac296-7dc2-42ad-981c-b8e1df0f7384
+2022-05-31,POSTED,NoTax,NIC Allowance - Month 2 - 2022,7006,-365.7,NIC Allowance - Month 2,c8bac296-7dc2-42ad-981c-b8e1df0f7384
+2021-07-01,VOIDED,NoTax,Duplicate PAYE write-off,2220,230.24,Duplicate PAYE write-off,64f4139e-04ad-4689-91ff-d456fe51489f
+2021-07-01,VOIDED,NoTax,Duplicate PAYE write-off,7003,-230.24,Duplicate PAYE write-off,64f4139e-04ad-4689-91ff-d456fe51489f
+2021-07-01,VOIDED,NoTax,Duplicate PAYE write-off,2210,344.52,Duplicate PAYE write-off,64f4139e-04ad-4689-91ff-d456fe51489f
+2021-07-01,VOIDED,NoTax,Duplicate PAYE write-off,7006,-344.52,Duplicate PAYE write-off,64f4139e-04ad-4689-91ff-d456fe51489f
+2021-07-01,VOIDED,NoTax,Duplicate PAYE write-off,2210,230.24,Duplicate PAYE write-off,53935c0a-a04a-446b-9ce5-10901b27c4ee
+2021-07-01,VOIDED,NoTax,Duplicate PAYE write-off,7006,-230.24,Duplicate PAYE write-off,53935c0a-a04a-446b-9ce5-10901b27c4ee
+2021-07-01,POSTED,NoTax,Duplicate wages & PAYE write-off,2220,929.76,Duplicate wages & PAYE write-off,c5dd6aee-9f7e-4f0d-8911-57e9f98ea823
+2021-07-01,POSTED,NoTax,Duplicate wages & PAYE write-off,7003,-929.76,Duplicate wages & PAYE write-off,c5dd6aee-9f7e-4f0d-8911-57e9f98ea823
+2021-07-01,POSTED,NoTax,Duplicate wages & PAYE write-off,2210,117.08,Duplicate wages & PAYE write-off,c5dd6aee-9f7e-4f0d-8911-57e9f98ea823
+2021-07-01,POSTED,NoTax,Duplicate wages & PAYE write-off,7006,-117.08,Duplicate wages & PAYE write-off,c5dd6aee-9f7e-4f0d-8911-57e9f98ea823
+2022-03-31,POSTED,NoTax,March 2022 - Month End Stock Valuation,1011,28464.0,March 2022 - Month End Stock Valuation,85d9693e-55dc-4951-b42e-92ec1ab19c2e
+2022-03-31,POSTED,NoTax,March 2022 - Month End Stock Valuation,5006,-28464.0,March 2022 - Month End Stock Valuation,85d9693e-55dc-4951-b42e-92ec1ab19c2e
+2022-06-30,POSTED,NoTax,June 2022 - Month End Stock Valuation,1011,17214.0,June 2022 - Month End Stock Valuation,af39d3a5-6e08-44fc-861e-dfe0705175ab
+2022-06-30,POSTED,NoTax,June 2022 - Month End Stock Valuation,5006,-17214.0,June 2022 - Month End Stock Valuation,af39d3a5-6e08-44fc-861e-dfe0705175ab
+2022-06-30,VOIDED,NoTax,NIC Allowance - Month 3 - 2022,2210,243.8,NIC Allowance - Month 3,5dfe6ee3-b77d-4af8-98e1-27d3fb2c5973
+2022-06-30,VOIDED,NoTax,NIC Allowance - Month 3 - 2022,7006,-243.8,NIC Allowance - Month 3,5dfe6ee3-b77d-4af8-98e1-27d3fb2c5973
+2022-06-30,VOIDED,NoTax,NIC Allowance - Month 3 - 2022,2210,-14.63,NIC Allowance - Month 3 - to correct last year's difference in PAYE,5dfe6ee3-b77d-4af8-98e1-27d3fb2c5973
+2022-06-30,VOIDED,NoTax,NIC Allowance - Month 3 - 2022,7006,14.63,NIC Allowance - Month 3 - to correct last year's difference in PAYE,5dfe6ee3-b77d-4af8-98e1-27d3fb2c5973
+2022-06-30,POSTED,NoTax,PAYE adjustment,2210,-117.08,Correct PAYE liability due at y/e - reverse adj. posted 1.07.21,2f545481-02cf-4124-9a62-b93ba3a55bb3
+2022-06-30,POSTED,NoTax,PAYE adjustment,7006,117.08,Correct PAYE liability due at y/e - reverse adj. posted 1.07.21,2f545481-02cf-4124-9a62-b93ba3a55bb3
+2022-06-30,POSTED,NoTax,VAT adjustment,2202,203.53,VAT adjustment - adjust historical difference,01762921-6376-4524-b4cd-a809829b4609
+2022-06-30,POSTED,NoTax,VAT adjustment,5000,-203.53,VAT adjustment - adjust historical difference,01762921-6376-4524-b4cd-a809829b4609
+2022-06-30,POSTED,NoTax,NIC Allowance - Month 3 - 2022,2210,121.9,NIC Allowance - Month 3 (split 2 - June fortnightly fell into Jul),4d01c263-bc49-424f-b520-0344cbf7de10
+2022-06-30,POSTED,NoTax,NIC Allowance - Month 3 - 2022,7006,-121.9,NIC Allowance - Month 3 (split 2 - June fortnightly fell into Jul),4d01c263-bc49-424f-b520-0344cbf7de10
+2022-06-30,POSTED,NoTax,Dividends,472,2000.0,Dividends,a4492f3b-81ff-4a95-a8be-dfd0639321f4
+2022-06-30,POSTED,NoTax,Dividends,2504,-2000.0,Dividends,a4492f3b-81ff-4a95-a8be-dfd0639321f4
+2022-03-31,POSTED,NoTax,Dividends,472,2000.0,Dividends,9b368ab0-6562-488f-89a1-9d98f0bae2d1
+2022-03-31,POSTED,NoTax,Dividends,2504,-2000.0,Dividends,9b368ab0-6562-488f-89a1-9d98f0bae2d1
+2022-06-30,POSTED,NoTax,Corporation tax,7910,14758.44,Corporation tax,17f2f98d-448e-4b76-a7a5-3e24321a1431
+2022-06-30,POSTED,NoTax,Corporation tax,2300,-14758.44,Corporation tax,17f2f98d-448e-4b76-a7a5-3e24321a1431
+2022-06-30,VOIDED,NoTax,Stock Valuation,1011,264520.46,June 2022 - Month End Stock Valuation - May purchases,0d858be6-2142-468a-942b-565f87cfd12f
+2022-06-30,VOIDED,NoTax,Stock Valuation,5006,-264520.46,June 2022 - Month End Stock Valuation - May purchases,0d858be6-2142-468a-942b-565f87cfd12f
+2022-06-30,VOIDED,NoTax,y/e adj,1011,-264520.46,y/e adj,5206c8d2-f18e-428b-b4a5-f37f1e4f9a62
+2022-06-30,VOIDED,NoTax,y/e adj,3200,264520.46,y/e adj,5206c8d2-f18e-428b-b4a5-f37f1e4f9a62
+2022-06-30,DELETED,NoTax,Dividends - Apr to Jun,472,6349.55,Dividends,838150cc-2e88-4e4a-9df9-c19c0da1bf4d
+2022-06-30,DELETED,NoTax,Dividends - Apr to Jun,2507,-1047.5,Dividends,838150cc-2e88-4e4a-9df9-c19c0da1bf4d
+2022-06-30,DELETED,NoTax,Dividends - Apr to Jun,,0.0,Dividends,838150cc-2e88-4e4a-9df9-c19c0da1bf4d
+2022-02-28,DELETED,NoTax,Stock Adjustment - Based on Stock Report - February 28,1011,24182.0,Stock Adjustment - Based on Stock Report - 30 June,fceab130-c160-49c6-aef9-3668f1e347c5
+2022-02-28,DELETED,NoTax,Stock Adjustment - Based on Stock Report - February 28,5006,-24182.0,Stock Adjustment - Based on Stock Report - 30 June,fceab130-c160-49c6-aef9-3668f1e347c5
+2021-07-02,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,9ddc0a60-d54a-4c12-a7fa-844eae1c5c51
+2021-07-02,POSTED,NoTax,Sent from BrightPay,2210,-343.6,Joseph Rush,9ddc0a60-d54a-4c12-a7fa-844eae1c5c51
+2021-07-02,POSTED,NoTax,Sent from BrightPay,2220,-929.56,Joseph Rush,9ddc0a60-d54a-4c12-a7fa-844eae1c5c51
+2021-07-02,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,9ddc0a60-d54a-4c12-a7fa-844eae1c5c51
+2021-07-16,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,063b53f8-9fe8-49c1-b8a2-013af06d974d
+2021-07-16,POSTED,NoTax,Sent from BrightPay,2210,-343.4,Joseph Rush,063b53f8-9fe8-49c1-b8a2-013af06d974d
+2021-07-16,POSTED,NoTax,Sent from BrightPay,2220,-929.76,Joseph Rush,063b53f8-9fe8-49c1-b8a2-013af06d974d
+2021-07-16,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,063b53f8-9fe8-49c1-b8a2-013af06d974d
+2021-07-02,VOIDED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,4321e459-20f2-4629-a999-1354a10e7d62
+2021-07-02,VOIDED,NoTax,Sent from BrightPay,2210,-343.6,Joseph Rush,4321e459-20f2-4629-a999-1354a10e7d62
+2021-07-02,VOIDED,NoTax,Sent from BrightPay,2220,-929.56,Joseph Rush,4321e459-20f2-4629-a999-1354a10e7d62
+2021-07-02,VOIDED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,4321e459-20f2-4629-a999-1354a10e7d62
+2021-07-30,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,5143dad7-0f23-4079-b26c-190d556d8d9b
+2021-07-30,POSTED,NoTax,Sent from BrightPay,2210,-343.4,Joseph Rush,5143dad7-0f23-4079-b26c-190d556d8d9b
+2021-07-30,POSTED,NoTax,Sent from BrightPay,2220,-929.76,Joseph Rush,5143dad7-0f23-4079-b26c-190d556d8d9b
+2021-07-30,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,5143dad7-0f23-4079-b26c-190d556d8d9b
+2021-08-13,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,1a06afd3-d7d4-47e5-91eb-bf251988d4cc
+2021-08-13,POSTED,NoTax,Sent from BrightPay,2210,-343.4,Joseph Rush,1a06afd3-d7d4-47e5-91eb-bf251988d4cc
+2021-08-13,POSTED,NoTax,Sent from BrightPay,2220,-929.76,Joseph Rush,1a06afd3-d7d4-47e5-91eb-bf251988d4cc
+2021-08-13,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,1a06afd3-d7d4-47e5-91eb-bf251988d4cc
+2021-07-31,POSTED,NoTax,NIC Allowance - Month 4,2210,226.32,NIC Allowance - Month 4,2d3187fb-149b-460d-8edb-c043734bc8c3
+2021-07-31,POSTED,NoTax,NIC Allowance - Month 4,7006,-226.32,NIC Allowance - Month 4,2d3187fb-149b-460d-8edb-c043734bc8c3
+2021-08-27,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,98e39658-da63-49fe-8df9-e58ecd9e5014
+2021-08-27,POSTED,NoTax,Sent from BrightPay,2210,-343.4,Joseph Rush,98e39658-da63-49fe-8df9-e58ecd9e5014
+2021-08-27,POSTED,NoTax,Sent from BrightPay,2220,-929.76,Joseph Rush,98e39658-da63-49fe-8df9-e58ecd9e5014
+2021-08-27,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,98e39658-da63-49fe-8df9-e58ecd9e5014
+2021-08-31,POSTED,NoTax,NIC Allowance - Month 5,2210,226.32,NIC Allowance - Month 5,3c20cdc2-19ae-4bb6-ba7f-407e39247120
+2021-08-31,POSTED,NoTax,NIC Allowance - Month 5,7006,-226.32,NIC Allowance - Month 5,3c20cdc2-19ae-4bb6-ba7f-407e39247120
+2021-09-10,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,aa92821a-46cb-473b-aa76-4f46ddf83da2
+2021-09-10,POSTED,NoTax,Sent from BrightPay,2210,-343.4,Joseph Rush,aa92821a-46cb-473b-aa76-4f46ddf83da2
+2021-09-10,POSTED,NoTax,Sent from BrightPay,2220,-929.76,Joseph Rush,aa92821a-46cb-473b-aa76-4f46ddf83da2
+2021-09-10,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,aa92821a-46cb-473b-aa76-4f46ddf83da2
+2021-08-01,POSTED,NoTax,Reversal of: Movement of Purchases to Prepayment (New Futura Bills) - 30 June,1011,581299.59,Movement of Purchases to Prepayment (New Futura Bills) - 30 June,6dae7cf0-5d71-468c-b55c-3881652d816b
+2021-08-01,POSTED,NoTax,Reversal of: Movement of Purchases to Prepayment (New Futura Bills) - 30 June,1103,-581299.59,Movement of Purchases to Prepayment (New Futura Bills) - 30 June,6dae7cf0-5d71-468c-b55c-3881652d816b
+2021-09-24,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,858674d9-e71a-48f8-b06f-76c1e35fed36
+2021-09-24,POSTED,NoTax,Sent from BrightPay,2210,-343.6,Joseph Rush,858674d9-e71a-48f8-b06f-76c1e35fed36
+2021-09-24,POSTED,NoTax,Sent from BrightPay,2220,-929.56,Joseph Rush,858674d9-e71a-48f8-b06f-76c1e35fed36
+2021-09-24,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,858674d9-e71a-48f8-b06f-76c1e35fed36
+2021-10-08,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,c615cddb-4cbf-42c6-9d05-36a6932fc6e4
+2021-10-08,POSTED,NoTax,Sent from BrightPay,2210,-343.4,Joseph Rush,c615cddb-4cbf-42c6-9d05-36a6932fc6e4
+2021-10-08,POSTED,NoTax,Sent from BrightPay,2220,-929.76,Joseph Rush,c615cddb-4cbf-42c6-9d05-36a6932fc6e4
+2021-10-08,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,c615cddb-4cbf-42c6-9d05-36a6932fc6e4
+2021-09-30,POSTED,NoTax,NIC Allowance - Month 6,2210,226.32,NIC Allowance - Month 6,fbe77c49-fdf1-4d82-b833-5646f3498d3a
+2021-09-30,POSTED,NoTax,NIC Allowance - Month 6,7006,-226.32,NIC Allowance - Month 6,fbe77c49-fdf1-4d82-b833-5646f3498d3a
+2021-07-05,POSTED,NoTax,NIC Allowance - Month 3,2210,113.16,NIC Allowance - Month 3,1055f17b-b29a-4fbf-a491-ea42b951af6a
+2021-07-05,POSTED,NoTax,NIC Allowance - Month 3,7006,-113.16,NIC Allowance - Month 3,1055f17b-b29a-4fbf-a491-ea42b951af6a
+2021-10-22,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,9fd3cc83-86ef-4233-8ad6-0c2e5c4b6f91
+2021-10-22,POSTED,NoTax,Sent from BrightPay,2210,-343.4,Joseph Rush,9fd3cc83-86ef-4233-8ad6-0c2e5c4b6f91
+2021-10-22,POSTED,NoTax,Sent from BrightPay,2220,-929.76,Joseph Rush,9fd3cc83-86ef-4233-8ad6-0c2e5c4b6f91
+2021-10-22,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,9fd3cc83-86ef-4233-8ad6-0c2e5c4b6f91
+2021-11-05,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,01746d44-d885-46e5-9ba8-94b2167ce376
+2021-11-05,POSTED,NoTax,Sent from BrightPay,2210,-343.4,Joseph Rush,01746d44-d885-46e5-9ba8-94b2167ce376
+2021-11-05,POSTED,NoTax,Sent from BrightPay,2220,-929.76,Joseph Rush,01746d44-d885-46e5-9ba8-94b2167ce376
+2021-11-05,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,01746d44-d885-46e5-9ba8-94b2167ce376
+2021-11-19,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,a4cc3fdc-59aa-41bb-bfd4-def2d333a75b
+2021-11-19,POSTED,NoTax,Sent from BrightPay,2210,-343.4,Joseph Rush,a4cc3fdc-59aa-41bb-bfd4-def2d333a75b
+2021-11-19,POSTED,NoTax,Sent from BrightPay,2220,-929.76,Joseph Rush,a4cc3fdc-59aa-41bb-bfd4-def2d333a75b
+2021-11-19,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,a4cc3fdc-59aa-41bb-bfd4-def2d333a75b
+2021-12-03,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,d6602d5b-2999-4bc7-895f-aeb3b33be8e8
+2021-12-03,POSTED,NoTax,Sent from BrightPay,2210,-343.4,Joseph Rush,d6602d5b-2999-4bc7-895f-aeb3b33be8e8
+2021-12-03,POSTED,NoTax,Sent from BrightPay,2220,-929.76,Joseph Rush,d6602d5b-2999-4bc7-895f-aeb3b33be8e8
+2021-12-03,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,d6602d5b-2999-4bc7-895f-aeb3b33be8e8
+2021-12-17,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,27f5adba-b140-4106-ab26-398bb7530365
+2021-12-17,POSTED,NoTax,Sent from BrightPay,2210,-343.6,Joseph Rush,27f5adba-b140-4106-ab26-398bb7530365
+2021-12-17,POSTED,NoTax,Sent from BrightPay,2220,-929.56,Joseph Rush,27f5adba-b140-4106-ab26-398bb7530365
+2021-12-17,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,27f5adba-b140-4106-ab26-398bb7530365
+2022-01-14,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,049aa43b-14f2-43d3-a6f8-fa9ab3fded8a
+2022-01-14,POSTED,NoTax,Sent from BrightPay,2210,-343.4,Joseph Rush,049aa43b-14f2-43d3-a6f8-fa9ab3fded8a
+2022-01-14,POSTED,NoTax,Sent from BrightPay,2220,-929.76,Joseph Rush,049aa43b-14f2-43d3-a6f8-fa9ab3fded8a
+2022-01-14,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,049aa43b-14f2-43d3-a6f8-fa9ab3fded8a
+2021-12-31,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,c4a44541-6ac5-4d53-b82b-acde82570630
+2021-12-31,POSTED,NoTax,Sent from BrightPay,2210,-343.4,Joseph Rush,c4a44541-6ac5-4d53-b82b-acde82570630
+2021-12-31,POSTED,NoTax,Sent from BrightPay,2220,-929.76,Joseph Rush,c4a44541-6ac5-4d53-b82b-acde82570630
+2021-12-31,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,c4a44541-6ac5-4d53-b82b-acde82570630
+2022-01-28,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,1710a904-40cc-4e23-9f72-50f0db2c102f
+2022-01-28,POSTED,NoTax,Sent from BrightPay,2210,-343.4,Joseph Rush,1710a904-40cc-4e23-9f72-50f0db2c102f
+2022-01-28,POSTED,NoTax,Sent from BrightPay,2220,-929.76,Joseph Rush,1710a904-40cc-4e23-9f72-50f0db2c102f
+2022-01-28,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,1710a904-40cc-4e23-9f72-50f0db2c102f
+2022-02-11,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,312c8c63-cf96-4d26-9d81-70ebf7f7527e
+2022-02-11,POSTED,NoTax,Sent from BrightPay,2210,-343.4,Joseph Rush,312c8c63-cf96-4d26-9d81-70ebf7f7527e
+2022-02-11,POSTED,NoTax,Sent from BrightPay,2220,-929.76,Joseph Rush,312c8c63-cf96-4d26-9d81-70ebf7f7527e
+2022-02-11,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,312c8c63-cf96-4d26-9d81-70ebf7f7527e
+2022-02-25,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,ba79a9f7-45d5-444f-b53b-0e78f700603a
+2022-02-25,POSTED,NoTax,Sent from BrightPay,2210,-343.4,Joseph Rush,ba79a9f7-45d5-444f-b53b-0e78f700603a
+2022-02-25,POSTED,NoTax,Sent from BrightPay,2220,-929.76,Joseph Rush,ba79a9f7-45d5-444f-b53b-0e78f700603a
+2022-02-25,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,ba79a9f7-45d5-444f-b53b-0e78f700603a
+2022-03-11,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,01a333dd-63a4-4940-a5c4-85ab63ea5f7e
+2022-03-11,POSTED,NoTax,Sent from BrightPay,2210,-343.6,Joseph Rush,01a333dd-63a4-4940-a5c4-85ab63ea5f7e
+2022-03-11,POSTED,NoTax,Sent from BrightPay,2220,-929.56,Joseph Rush,01a333dd-63a4-4940-a5c4-85ab63ea5f7e
+2022-03-11,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,01a333dd-63a4-4940-a5c4-85ab63ea5f7e
+2021-07-01,VOIDED,NoTax,Reversal of: Movement of Closing Stock to Opening Stock - 1 July,5006,-18140.0,Stock Adjustment - Based on Stock Report - 30 June,bfe23fc9-056d-4306-abea-a6714ba272f3
+2021-07-01,VOIDED,NoTax,Reversal of: Movement of Closing Stock to Opening Stock - 1 July,5005,18140.0,Stock Adjustment - Based on Stock Report - 30 June,bfe23fc9-056d-4306-abea-a6714ba272f3
+2022-02-01,POSTED,NoTax,Movement of Stock - 2021 to Purchases - Footwear,5000,581299.59,Movement of Stock - 2021 to Purchases - Footwear,a787df3c-e535-4ca7-8d16-ce40950e4954
+2022-02-01,POSTED,NoTax,Movement of Stock - 2021 to Purchases - Footwear,1011,-581299.59,Movement of Stock - 2021 to Purchases - Footwear,a787df3c-e535-4ca7-8d16-ce40950e4954
+2021-07-01,VOIDED,NoTax,For Opening and Closing Stock - 1 July,5005,18140.0,For Opening and Closing Stock - 1 July,6405cba2-3035-4c63-8dc1-acd84de671e5
+2021-07-01,VOIDED,NoTax,For Opening and Closing Stock - 1 July,5006,-18140.0,For Opening and Closing Stock - 1 July,6405cba2-3035-4c63-8dc1-acd84de671e5
+2022-03-01,VOIDED,NoTax,Reversal: February 2022 - Month End Stock Valuation,1011,-42322.0,February 2022 - Month End Stock Valuation ,c593c048-0ea7-4992-ac5f-478b01ba061f
+2022-03-01,VOIDED,NoTax,Reversal: February 2022 - Month End Stock Valuation,5006,42322.0,February 2022 - Month End Stock Valuation ,c593c048-0ea7-4992-ac5f-478b01ba061f
+2022-03-31,VOIDED,NoTax,March 2022 - Month End Stock Valuation (test),1011,7678.0,February 2022 - Month End Stock Valuation ,31511a58-8e61-4cf0-a392-09d11dbfe8ce
+2022-03-31,VOIDED,NoTax,March 2022 - Month End Stock Valuation (test),5006,-7678.0,February 2022 - Month End Stock Valuation ,31511a58-8e61-4cf0-a392-09d11dbfe8ce
+2022-04-30,VOIDED,NoTax,Stock test,5005,50000.0,Stock test,3d80da15-b91a-4a5e-8650-b7b7c7366e5e
+2022-04-30,VOIDED,NoTax,Stock test,1011,-50000.0,Stock test,3d80da15-b91a-4a5e-8650-b7b7c7366e5e
+2022-04-30,VOIDED,NoTax,Stock test,1011,60000.0,Stock test,3d80da15-b91a-4a5e-8650-b7b7c7366e5e
+2022-04-30,VOIDED,NoTax,Stock test,5006,-60000.0,Stock test,3d80da15-b91a-4a5e-8650-b7b7c7366e5e
+2022-03-31,VOIDED,NoTax,Stock test,5005,42322.0,Stock test,d07339c5-e983-4cf2-a5f7-a32d7411168b
+2022-03-31,VOIDED,NoTax,Stock test,1011,-42322.0,Stock test,d07339c5-e983-4cf2-a5f7-a32d7411168b
+2022-03-31,VOIDED,NoTax,Stock test,1011,50000.0,Stock test,d07339c5-e983-4cf2-a5f7-a32d7411168b
+2022-03-31,VOIDED,NoTax,Stock test,5006,-50000.0,Stock test,d07339c5-e983-4cf2-a5f7-a32d7411168b
+2022-03-25,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,d3bdf354-5299-494d-ba06-f4fc65703cd5
+2022-03-25,POSTED,NoTax,Sent from BrightPay,2210,-343.4,Joseph Rush,d3bdf354-5299-494d-ba06-f4fc65703cd5
+2022-03-25,POSTED,NoTax,Sent from BrightPay,2220,-929.76,Joseph Rush,d3bdf354-5299-494d-ba06-f4fc65703cd5
+2022-03-25,POSTED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,d3bdf354-5299-494d-ba06-f4fc65703cd5
+2022-04-22,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,cf4976cd-7280-4294-920c-fe4e403f61f5
+2022-04-22,POSTED,NoTax,Sent from BrightPay,2210,-360.45,Joseph Rush,cf4976cd-7280-4294-920c-fe4e403f61f5
+2022-04-22,POSTED,NoTax,Sent from BrightPay,2220,-921.45,Joseph Rush,cf4976cd-7280-4294-920c-fe4e403f61f5
+2022-04-22,POSTED,NoTax,Sent from BrightPay,7006,121.9,Joseph Rush,cf4976cd-7280-4294-920c-fe4e403f61f5
+2022-05-06,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,4ff249cf-d218-442e-a97f-381c20b448a5
+2022-05-06,POSTED,NoTax,Sent from BrightPay,2210,-360.45,Joseph Rush,4ff249cf-d218-442e-a97f-381c20b448a5
+2022-05-06,POSTED,NoTax,Sent from BrightPay,2220,-921.45,Joseph Rush,4ff249cf-d218-442e-a97f-381c20b448a5
+2022-05-06,POSTED,NoTax,Sent from BrightPay,7006,121.9,Joseph Rush,4ff249cf-d218-442e-a97f-381c20b448a5
+2021-10-31,POSTED,NoTax,NIC Allowance - Month 7,2210,339.48,NIC Allowance - Month 6,42c1a43f-8f12-4c44-92bd-35f76fda88e4
+2021-10-31,POSTED,NoTax,NIC Allowance - Month 7,7006,-339.48,NIC Allowance - Month 6,42c1a43f-8f12-4c44-92bd-35f76fda88e4
+2021-11-30,POSTED,NoTax,NIC Allowance - Month 8,2210,226.32,NIC Allowance - Month 6,b031c80d-f44a-4b55-b686-66d79246669f
+2021-11-30,POSTED,NoTax,NIC Allowance - Month 8,7006,-226.32,NIC Allowance - Month 6,b031c80d-f44a-4b55-b686-66d79246669f
+2021-12-31,POSTED,NoTax,NIC Allowance - Month 9,2210,226.32,NIC Allowance - Month 6,7a801bbf-b4a8-4209-be7e-f47a5a1581f7
+2021-12-31,POSTED,NoTax,NIC Allowance - Month 9,7006,-226.32,NIC Allowance - Month 6,7a801bbf-b4a8-4209-be7e-f47a5a1581f7
+2022-01-31,POSTED,NoTax,NIC Allowance - Month 10,2210,226.32,NIC Allowance - Month 6,4a89cbd6-a41a-4f98-945e-86f9b272d21c
+2022-01-31,POSTED,NoTax,NIC Allowance - Month 10,7006,-226.32,NIC Allowance - Month 6,4a89cbd6-a41a-4f98-945e-86f9b272d21c
+2022-02-28,POSTED,NoTax,NIC Allowance - Month 11,2210,226.32,NIC Allowance - Month 6,c8f018fd-5036-4341-890b-7b4177eb7462
+2022-02-28,POSTED,NoTax,NIC Allowance - Month 11,7006,-226.32,NIC Allowance - Month 6,c8f018fd-5036-4341-890b-7b4177eb7462
+2022-03-31,POSTED,NoTax,NIC Allowance - Month 12,2210,226.32,NIC Allowance - Month 6,08ae9b2d-240f-4cc8-84f7-c511ed6043a2
+2022-03-31,POSTED,NoTax,NIC Allowance - Month 12,7006,-226.32,NIC Allowance - Month 6,08ae9b2d-240f-4cc8-84f7-c511ed6043a2
+2022-04-30,POSTED,NoTax,NIC Allowance - Month 1 - 2022,2210,243.8,NIC Allowance - Month 6,f6fa6973-4318-4743-9a45-2b346490a2ff
+2022-04-30,POSTED,NoTax,NIC Allowance - Month 1 - 2022,7006,-243.8,NIC Allowance - Month 6,f6fa6973-4318-4743-9a45-2b346490a2ff
+2022-03-25,VOIDED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,70d00782-4dd5-4a30-ae79-f61c772d1556
+2022-03-25,VOIDED,NoTax,Sent from BrightPay,2210,-343.4,Joseph Rush,70d00782-4dd5-4a30-ae79-f61c772d1556
+2022-03-25,VOIDED,NoTax,Sent from BrightPay,2220,-929.76,Joseph Rush,70d00782-4dd5-4a30-ae79-f61c772d1556
+2022-03-25,VOIDED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,70d00782-4dd5-4a30-ae79-f61c772d1556
+2022-03-11,VOIDED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,cf4e47bc-ce95-458d-8640-27762f710a61
+2022-03-11,VOIDED,NoTax,Sent from BrightPay,2210,-343.6,Joseph Rush,cf4e47bc-ce95-458d-8640-27762f710a61
+2022-03-11,VOIDED,NoTax,Sent from BrightPay,2220,-929.56,Joseph Rush,cf4e47bc-ce95-458d-8640-27762f710a61
+2022-03-11,VOIDED,NoTax,Sent from BrightPay,7006,113.16,Joseph Rush,cf4e47bc-ce95-458d-8640-27762f710a61
+2021-07-01,VOIDED,NoTax,Reversal of: Subscriptions Accrual - 30 June,8201,-3.0,Subscriptions Accrual - 30 June,aba4c77f-84f3-4e00-95dd-b406b469e2e1
+2021-07-01,VOIDED,NoTax,Reversal of: Subscriptions Accrual - 30 June,2109,3.0,Subscriptions Accrual - 30 June,aba4c77f-84f3-4e00-95dd-b406b469e2e1
+2022-04-08,VOIDED,NoTax,Joseph Rush - Net Wages Discrepancy,7003,-8.31,Joseph Rush - Net Wages Discrepancy,1a9a4c03-8134-4dca-bbe3-1701290e5c9b
+2022-04-08,VOIDED,NoTax,Joseph Rush - Net Wages Discrepancy,2220,8.31,Joseph Rush - Net Wages Discrepancy,1a9a4c03-8134-4dca-bbe3-1701290e5c9b
+2022-04-08,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,b15a3f18-920c-4f62-8fc5-8d0aa57fda5c
+2022-04-08,POSTED,NoTax,Sent from BrightPay,2210,-360.45,Joseph Rush,b15a3f18-920c-4f62-8fc5-8d0aa57fda5c
+2022-04-08,POSTED,NoTax,Sent from BrightPay,2220,-921.45,Joseph Rush,b15a3f18-920c-4f62-8fc5-8d0aa57fda5c
+2022-04-08,POSTED,NoTax,Sent from BrightPay,7006,121.9,Joseph Rush,b15a3f18-920c-4f62-8fc5-8d0aa57fda5c
+2022-04-22,VOIDED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,1b21fd45-a37b-44a9-9f07-2e1a6262ea38
+2022-04-22,VOIDED,NoTax,Sent from BrightPay,2210,-360.45,Joseph Rush,1b21fd45-a37b-44a9-9f07-2e1a6262ea38
+2022-04-22,VOIDED,NoTax,Sent from BrightPay,2220,-921.45,Joseph Rush,1b21fd45-a37b-44a9-9f07-2e1a6262ea38
+2022-04-22,VOIDED,NoTax,Sent from BrightPay,7006,121.9,Joseph Rush,1b21fd45-a37b-44a9-9f07-2e1a6262ea38
+2022-04-08,VOIDED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,e5c326f6-14e2-49de-a821-04af62b81184
+2022-04-08,VOIDED,NoTax,Sent from BrightPay,2210,-360.45,Joseph Rush,e5c326f6-14e2-49de-a821-04af62b81184
+2022-04-08,VOIDED,NoTax,Sent from BrightPay,2220,-921.45,Joseph Rush,e5c326f6-14e2-49de-a821-04af62b81184
+2022-04-08,VOIDED,NoTax,Sent from BrightPay,7006,121.9,Joseph Rush,e5c326f6-14e2-49de-a821-04af62b81184
+2022-06-03,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,50dc76e3-c59d-4bb5-b0bd-9a198d758827
+2022-06-03,POSTED,NoTax,Sent from BrightPay,2210,-360.45,Joseph Rush,50dc76e3-c59d-4bb5-b0bd-9a198d758827
+2022-06-03,POSTED,NoTax,Sent from BrightPay,2220,-921.45,Joseph Rush,50dc76e3-c59d-4bb5-b0bd-9a198d758827
+2022-06-03,POSTED,NoTax,Sent from BrightPay,7006,121.9,Joseph Rush,50dc76e3-c59d-4bb5-b0bd-9a198d758827
+2022-03-31,VOIDED,NoTax,March 2022 - Month End Stock Valuation,5005,-18140.0,March 2022 - Month End Stock Valuation,ca559931-091a-4835-985c-efe428970621
+2022-03-31,VOIDED,NoTax,March 2022 - Month End Stock Valuation,1011,18140.0,March 2022 - Month End Stock Valuation,ca559931-091a-4835-985c-efe428970621
+2022-03-31,VOIDED,NoTax,March 2022 - Month End Stock Valuation,1011,24182.0,March 2022 - Month End Stock Valuation,ca559931-091a-4835-985c-efe428970621
+2022-03-31,VOIDED,NoTax,March 2022 - Month End Stock Valuation,5006,-24182.0,March 2022 - Month End Stock Valuation,ca559931-091a-4835-985c-efe428970621
+2022-03-31,VOIDED,NoTax,March 2022 - Month End Stock Valuation,1011,28464.0,March 2022 - Month End Stock Valuation,21b0ecab-c0a4-471d-9c95-3dc85df8b0b7
+2022-03-31,VOIDED,NoTax,March 2022 - Month End Stock Valuation,5006,-70786.0,March 2022 - Month End Stock Valuation,21b0ecab-c0a4-471d-9c95-3dc85df8b0b7
+2022-03-31,VOIDED,NoTax,March 2022 - Month End Stock Valuation,5005,42322.0,March 2022 - Month End Stock Valuation,21b0ecab-c0a4-471d-9c95-3dc85df8b0b7
+2022-03-31,VOIDED,NoTax,March 2022 - Month End Stock Valuation (2),1011,-24182.0,March 2022 - Month End Stock Valuation (2),f48ca8dc-9a13-4937-8990-2685924c62b5
+2022-03-31,VOIDED,NoTax,March 2022 - Month End Stock Valuation (2),5005,-18140.0,March 2022 - Month End Stock Valuation (2),f48ca8dc-9a13-4937-8990-2685924c62b5
+2022-03-31,VOIDED,NoTax,March 2022 - Month End Stock Valuation (2),5006,42322.0,March 2022 - Month End Stock Valuation (2),f48ca8dc-9a13-4937-8990-2685924c62b5
+2022-02-28,POSTED,NoTax,February 2022 - Month End Stock Valuation,1011,24182.0,February 2022 - Month End Stock Valuation,730fa2b8-9c81-4b79-ba70-a523e8338325
+2022-02-28,POSTED,NoTax,February 2022 - Month End Stock Valuation,5005,18140.0,February 2022 - Month End Stock Valuation,730fa2b8-9c81-4b79-ba70-a523e8338325
+2022-02-28,POSTED,NoTax,February 2022 - Month End Stock Valuation,5006,-42322.0,February 2022 - Month End Stock Valuation,730fa2b8-9c81-4b79-ba70-a523e8338325
+2022-03-31,VOIDED,NoTax,March 2022 - Month End Stock Valuation Flush,5005,-18140.0,March 2022 - Month End Stock Valuation Flush,0afd94e3-5fd5-48e1-a1c5-e8080b10ff68
+2022-03-31,VOIDED,NoTax,March 2022 - Month End Stock Valuation Flush,5006,42322.0,March 2022 - Month End Stock Valuation Flush,0afd94e3-5fd5-48e1-a1c5-e8080b10ff68
+2022-03-31,VOIDED,NoTax,March 2022 - Month End Stock Valuation Flush,5000,-24182.0,March 2022 - Month End Stock Valuation Flush,0afd94e3-5fd5-48e1-a1c5-e8080b10ff68
+2022-06-17,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,d06b9cac-8846-4bac-b9b0-b7e001d7c40f
+2022-06-17,POSTED,NoTax,Sent from BrightPay,2210,-346.25,Joseph Rush,d06b9cac-8846-4bac-b9b0-b7e001d7c40f
+2022-06-17,POSTED,NoTax,Sent from BrightPay,2220,-935.65,Joseph Rush,d06b9cac-8846-4bac-b9b0-b7e001d7c40f
+2022-06-17,POSTED,NoTax,Sent from BrightPay,7006,121.9,Joseph Rush,d06b9cac-8846-4bac-b9b0-b7e001d7c40f
+2022-05-20,POSTED,NoTax,Sent from BrightPay,7003,1160.0,Joseph Rush,cb4e3fc0-b7c3-4c22-a224-a4850979d4c5
+2022-05-20,POSTED,NoTax,Sent from BrightPay,2210,-360.45,Joseph Rush,cb4e3fc0-b7c3-4c22-a224-a4850979d4c5
+2022-05-20,POSTED,NoTax,Sent from BrightPay,2220,-921.45,Joseph Rush,cb4e3fc0-b7c3-4c22-a224-a4850979d4c5
+2022-05-20,POSTED,NoTax,Sent from BrightPay,7006,121.9,Joseph Rush,cb4e3fc0-b7c3-4c22-a224-a4850979d4c5
+2022-05-31,POSTED,NoTax,NIC Allowance - Month 2 - 2022,2210,365.7,NIC Allowance - Month 2,c8bac296-7dc2-42ad-981c-b8e1df0f7384
+2022-05-31,POSTED,NoTax,NIC Allowance - Month 2 - 2022,7006,-365.7,NIC Allowance - Month 2,c8bac296-7dc2-42ad-981c-b8e1df0f7384
+2021-07-01,VOIDED,NoTax,Duplicate PAYE write-off,2220,230.24,Duplicate PAYE write-off,64f4139e-04ad-4689-91ff-d456fe51489f
+2021-07-01,VOIDED,NoTax,Duplicate PAYE write-off,7003,-230.24,Duplicate PAYE write-off,64f4139e-04ad-4689-91ff-d456fe51489f
+2021-07-01,VOIDED,NoTax,Duplicate PAYE write-off,2210,344.52,Duplicate PAYE write-off,64f4139e-04ad-4689-91ff-d456fe51489f
+2021-07-01,VOIDED,NoTax,Duplicate PAYE write-off,7006,-344.52,Duplicate PAYE write-off,64f4139e-04ad-4689-91ff-d456fe51489f
+2021-07-01,VOIDED,NoTax,Duplicate PAYE write-off,2210,230.24,Duplicate PAYE write-off,53935c0a-a04a-446b-9ce5-10901b27c4ee
+2021-07-01,VOIDED,NoTax,Duplicate PAYE write-off,7006,-230.24,Duplicate PAYE write-off,53935c0a-a04a-446b-9ce5-10901b27c4ee
+2021-07-01,POSTED,NoTax,Duplicate wages & PAYE write-off,2220,929.76,Duplicate wages & PAYE write-off,c5dd6aee-9f7e-4f0d-8911-57e9f98ea823
+2021-07-01,POSTED,NoTax,Duplicate wages & PAYE write-off,7003,-929.76,Duplicate wages & PAYE write-off,c5dd6aee-9f7e-4f0d-8911-57e9f98ea823
+2021-07-01,POSTED,NoTax,Duplicate wages & PAYE write-off,2210,117.08,Duplicate wages & PAYE write-off,c5dd6aee-9f7e-4f0d-8911-57e9f98ea823
+2021-07-01,POSTED,NoTax,Duplicate wages & PAYE write-off,7006,-117.08,Duplicate wages & PAYE write-off,c5dd6aee-9f7e-4f0d-8911-57e9f98ea823
+2022-03-31,POSTED,NoTax,March 2022 - Month End Stock Valuation,1011,28464.0,March 2022 - Month End Stock Valuation,85d9693e-55dc-4951-b42e-92ec1ab19c2e
+2022-03-31,POSTED,NoTax,March 2022 - Month End Stock Valuation,5006,-28464.0,March 2022 - Month End Stock Valuation,85d9693e-55dc-4951-b42e-92ec1ab19c2e
+2022-06-30,POSTED,NoTax,June 2022 - Month End Stock Valuation,1011,17214.0,June 2022 - Month End Stock Valuation,af39d3a5-6e08-44fc-861e-dfe0705175ab
+2022-06-30,POSTED,NoTax,June 2022 - Month End Stock Valuation,5006,-17214.0,June 2022 - Month End Stock Valuation,af39d3a5-6e08-44fc-861e-dfe0705175ab
+2022-06-30,VOIDED,NoTax,NIC Allowance - Month 3 - 2022,2210,243.8,NIC Allowance - Month 3,5dfe6ee3-b77d-4af8-98e1-27d3fb2c5973
+2022-06-30,VOIDED,NoTax,NIC Allowance - Month 3 - 2022,7006,-243.8,NIC Allowance - Month 3,5dfe6ee3-b77d-4af8-98e1-27d3fb2c5973
+2022-06-30,VOIDED,NoTax,NIC Allowance - Month 3 - 2022,2210,-14.63,NIC Allowance - Month 3 - to correct last year's difference in PAYE,5dfe6ee3-b77d-4af8-98e1-27d3fb2c5973
+2022-06-30,VOIDED,NoTax,NIC Allowance - Month 3 - 2022,7006,14.63,NIC Allowance - Month 3 - to correct last year's difference in PAYE,5dfe6ee3-b77d-4af8-98e1-27d3fb2c5973
+2022-06-30,POSTED,NoTax,PAYE adjustment,2210,-117.08,Correct PAYE liability due at y/e - reverse adj. posted 1.07.21,2f545481-02cf-4124-9a62-b93ba3a55bb3
+2022-06-30,POSTED,NoTax,PAYE adjustment,7006,117.08,Correct PAYE liability due at y/e - reverse adj. posted 1.07.21,2f545481-02cf-4124-9a62-b93ba3a55bb3
+2022-06-30,POSTED,NoTax,VAT adjustment,2202,203.53,VAT adjustment - adjust historical difference,01762921-6376-4524-b4cd-a809829b4609
+2022-06-30,POSTED,NoTax,VAT adjustment,5000,-203.53,VAT adjustment - adjust historical difference,01762921-6376-4524-b4cd-a809829b4609
+2022-06-30,POSTED,NoTax,NIC Allowance - Month 3 - 2022,2210,121.9,NIC Allowance - Month 3 (split 2 - June fortnightly fell into Jul),4d01c263-bc49-424f-b520-0344cbf7de10
+2022-06-30,POSTED,NoTax,NIC Allowance - Month 3 - 2022,7006,-121.9,NIC Allowance - Month 3 (split 2 - June fortnightly fell into Jul),4d01c263-bc49-424f-b520-0344cbf7de10
+2022-06-30,POSTED,NoTax,Dividends,472,2000.0,Dividends,a4492f3b-81ff-4a95-a8be-dfd0639321f4
+2022-06-30,POSTED,NoTax,Dividends,2504,-2000.0,Dividends,a4492f3b-81ff-4a95-a8be-dfd0639321f4
+2022-03-31,POSTED,NoTax,Dividends,472,2000.0,Dividends,9b368ab0-6562-488f-89a1-9d98f0bae2d1
+2022-03-31,POSTED,NoTax,Dividends,2504,-2000.0,Dividends,9b368ab0-6562-488f-89a1-9d98f0bae2d1
+2022-06-30,POSTED,NoTax,Corporation tax,7910,14758.44,Corporation tax,17f2f98d-448e-4b76-a7a5-3e24321a1431
+2022-06-30,POSTED,NoTax,Corporation tax,2300,-14758.44,Corporation tax,17f2f98d-448e-4b76-a7a5-3e24321a1431
+2022-06-30,VOIDED,NoTax,Stock Valuation,1011,264520.46,June 2022 - Month End Stock Valuation - May purchases,0d858be6-2142-468a-942b-565f87cfd12f
+2022-06-30,VOIDED,NoTax,Stock Valuation,5006,-264520.46,June 2022 - Month End Stock Valuation - May purchases,0d858be6-2142-468a-942b-565f87cfd12f
+2022-06-30,VOIDED,NoTax,y/e adj,1011,-264520.46,y/e adj,5206c8d2-f18e-428b-b4a5-f37f1e4f9a62
+2022-06-30,VOIDED,NoTax,y/e adj,3200,264520.46,y/e adj,5206c8d2-f18e-428b-b4a5-f37f1e4f9a62
+2022-06-30,DELETED,NoTax,Dividends - Apr to Jun,472,6349.55,Dividends,838150cc-2e88-4e4a-9df9-c19c0da1bf4d
+2022-06-30,DELETED,NoTax,Dividends - Apr to Jun,2507,-1047.5,Dividends,838150cc-2e88-4e4a-9df9-c19c0da1bf4d
+2022-06-30,DELETED,NoTax,Dividends - Apr to Jun,,0.0,Dividends,838150cc-2e88-4e4a-9df9-c19c0da1bf4d
+2022-02-28,DELETED,NoTax,Stock Adjustment - Based on Stock Report - February 28,1011,24182.0,Stock Adjustment - Based on Stock Report - 30 June,fceab130-c160-49c6-aef9-3668f1e347c5
+2022-02-28,DELETED,NoTax,Stock Adjustment - Based on Stock Report - February 28,5006,-24182.0,Stock Adjustment - Based on Stock Report - 30 June,fceab130-c160-49c6-aef9-3668f1e347c5

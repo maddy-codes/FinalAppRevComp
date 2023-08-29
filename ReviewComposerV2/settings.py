@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-dxv=@b#y6zvqwga^!#-ygk0929c^e7ih!7%#=_0*b%w)7%hivk"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True 
+DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['phm-review-notes.azurewebsites.net','127.0.0.1']
 
 
 # Application definition
@@ -38,11 +38,13 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "whitenoise.runserver_nostatic",
     'Main',
 ]
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
+    "whitenoise.middleware.WhiteNoiseMiddleware", 
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
@@ -70,6 +72,14 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = "ReviewComposerV2.wsgi.application"
+
+SESSION_COOKIE_SECURE = False
+CSRF_COOKIE_SECURE = False
+SECURE_SSL_REDIRECT = False
+
+CORS_ALLOW_ALL_ORIGINS = True
+CSRF_TRUSTED_ORIGINS = ['http://phm-review-notes.azurewebsites.net','https://phm-review-notes.azurewebsites.net']
+
 
 
 # Database
@@ -131,3 +141,7 @@ STATIC_ROOT = os.path.join(BASE_DIR,'static')
 MEDIA_URL = "media/"
 
 MEDIA_ROOT = os.path.join(BASE_DIR,'media')
+
+STATICFILES_STORAGE = ('whitenoise.storage.CompressedManifestStaticFilesStorage') 
+
+STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')

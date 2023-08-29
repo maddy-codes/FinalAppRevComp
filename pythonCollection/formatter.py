@@ -2,9 +2,6 @@ import PyPDF2
 
 import openpyxl
 
-import tkinter as tk
-
-from tkinter import filedialog, messagebox, simpledialog
 
 import re
 
@@ -32,18 +29,10 @@ import math
 
 from subprocess import call
 
-from PIL import Image, ImageTk
+import csv
 
-import os 
+from openpyxl import Workbook
 
-
-MAIN_PATH = os.getcwd()
-
-print(MAIN_PATH)
-
-print(os.path.exists(os.path.join(MAIN_PATH,'static')))
-
-STATIC_ROOT_HERE = os.path.join(MAIN_PATH,'static')
 
 # This function is responsible for extracting the company name and date so that it can be stored in a txt file to then later be interacted with the API
 
@@ -93,6 +82,8 @@ def leap_year_checker(year):
 def calculate_start_date(end_date):
 
     DICTIONARY = {
+
+
 
         'JANUARY': 'FEBRUARY',
 
@@ -266,6 +257,7 @@ def extract_company_and_date(pdf_path):
 
 
 
+
                 r"(\d{1,2} [A-Za-z]+ \d{4}) TO", extracted_text, re.MULTILINE)
 
             if start_date_match:
@@ -275,6 +267,7 @@ def extract_company_and_date(pdf_path):
             # Extract the date to the right side of "TO" as the end date
 
             end_date_match = re.search(
+
 
 
 
@@ -301,9 +294,315 @@ def extract_company_and_date(pdf_path):
 
 
 # This function utilizes the PyPDF2 module to extract data from the uploaded PDFs. This where it really starts.
+#####################################################################################################################
+workbook = openpyxl.Workbook()
+
+sheet = workbook.active
+sheet.title = 'Review Notes'
+font = Font(size=9, bold=True, underline="single")
+
+
+key_font = Font(size=9, bold=False)
+
+key_font_title = Font(size=11, bold=True)
+
+normal_font = Font(size=9)
+
+fill = PatternFill(start_color="B7CDE8",
+
+
+
+                   end_color="B7CDE8", fill_type="solid")
+
+
+fillNETgreen = PatternFill(
+
+
+
+    start_color="B7E8BA", end_color="B7E8BA", fill_type="solid")
+
+
+fillNETred = PatternFill(start_color="E8BAB7",
+
+
+
+                         end_color="E8BAB7", fill_type="solid")
+
+
+format_sheet = workbook.create_sheet("Review Notes")
+
+format_sheet = workbook.active
+
+row_index = 2  # Starting row index for data
+
+
+
+def sheet_format():
+
+    sheet.column_dimensions['A'].width = 30
+
+    sheet.column_dimensions['B'].width = 20
+
+    sheet.column_dimensions['C'].width = 20
+
+    sheet.column_dimensions['D'].width = 20
+
+    sheet.column_dimensions['E'].width = 20
+
+    sheet.column_dimensions['F'].width = 50
+
+    sheet.column_dimensions['G'].width = 30
+
+    # sheet.merge_cells(start_row=4, start_column=7, end_row=8, end_column=7)
+
+    # The code below simply applies the font/styling to the column titles for each of the sheets
+
+    column_titles = ["A", "B", "C", "D", "E", "F", "G"]
+
+    for col_title in column_titles:
+
+        sheet[col_title + '1'].font = font
+
+    for col_title in column_titles:
+
+        format_sheet[col_title + '1'].font = font
+
+    # Column title names
+
+    sheet['A1'] = "Expenditure"
+
+    sheet['B1'] = "This Year"
+
+    sheet['C1'] = "Last Year"
+
+    sheet['D1'] = "Difference"
+
+    sheet['E1'] = "% Change"
+
+    sheet['F1'] = "Explanation"
+
+    sheet['G1'] = "Additional"
+
+    sheet['I4'].value = "Key"
+
+    sheet['H4'].font = Font(bold=True)
+
+    # Cell H5: Colored cell with the same shade of blue
+
+    cell_h5 = sheet['I5']
+
+    cell_h5.fill = fill
+
+    # Key messages
+
+    sheet['I4'].font = key_font_title
+
+    sheet['J5'].font = key_font
+
+    sheet['J6'].font = key_font
+
+    sheet['J5'].value = "Identified value 0 in this year's or last year's account."
+
+    sheet['J6'].value = "Inaccurate calculations. Will need reviewing."
+
+    cell_h5 = sheet['I8']
+
+    cell_h5.fill = fillNETgreen
+
+    # Key messages
+
+    sheet['J9'].font = key_font
+
+    sheet['J9'].value = "Positive figures compared to last year. (GROSS/NET PROFIT)"
+
+    cell_h5 = sheet['I11']
+
+    cell_h5.fill = fillNETred
+
+    # Key messages
+
+    sheet['J12'].font = key_font
+
+    sheet['J12'].value = "Negative figures compared to last year. (GROSS/NET PROFIT)"
+
+
+def director_renumeration():
+
+    global row_index
+
+    directors_figures = []
+
+    directors_found = False
+
+    for row_index in range(2, row_index):
+
+        expenditure = sheet.cell(row=row_index, column=1).value
+
+        if expenditure and expenditure.startswith("Directors"):
+
+            this_year = sheet.cell(row=row_index, column=2).value
+
+            if this_year:
+
+                if isinstance(this_year, str):
+
+                    this_year = float(this_year.replace(",", ""))
+
+                directors_figures.append(this_year)
+
+    directors_sum = sum(directors_figures)
+
+    # As long as NET PROFT is within 100 rows, this will locate it and store it
+
+    net_figures = [0]
+
+    for row_index in range(2, 100):
+
+        expenditure = sheet.cell(row=row_index, column=1).value
+
+        if expenditure and expenditure.startswith("NET"):
+
+            this_year = sheet.cell(row=row_index, column=2).value
+
+            if this_year:
+
+                if isinstance(this_year, str):
+
+                    this_year = float(this_year.replace(",", ""))
+
+                net_figures.append(this_year)
+
+    Net_sum = sum(net_figures)
+
+    NT = directors_sum + Net_sum
+
+    prev_directors_figures = []
+
+    for row_index in range(2, row_index):
+
+        expenditure = sheet.cell(row=row_index, column=1).value
+
+        if expenditure and expenditure.startswith("Directors"):
+
+            directors_found = True
+
+            last_year = sheet.cell(row=row_index, column=3).value
+
+            if last_year:
+
+                if isinstance(last_year, str):
+
+                    last_year = float(last_year.replace(",", ""))
+
+                prev_directors_figures.append(last_year)
+
+    prev_directors_sum = sum(prev_directors_figures)
+
+    # As long as NET PROFT is within 100 rows, this will locate it and store it
+
+    prev_net_figures = [0]
+
+    for row_index in range(2, 100):
+
+        expenditure = sheet.cell(row=row_index, column=1).value
+
+        if expenditure and expenditure.startswith("NET"):
+
+            last_year = sheet.cell(row=row_index, column=3).value
+
+            if last_year:
+
+                if isinstance(last_year, str):
+
+                    last_year = float(last_year.replace(",", ""))
+
+                prev_net_figures.append(last_year)
+
+    prev_Net_sum = sum(prev_net_figures)
+
+    prev_NT = prev_directors_sum + prev_Net_sum
+
+    diff_NT = NT - prev_NT
+
+    if prev_NT != 0.0:
+
+        comp = (
+
+
+
+
+
+
+
+            diff_NT / prev_NT) * 100
+
+    else:
+
+        comp = 0.0
+
+    # comp = prev_NT / diff_NT * 100
+
+    if diff_NT > 0:
+
+        NTchange_type = "Increased"
+
+    elif diff_NT < 0:
+
+        NTchange_type = "Decreased"
+
+    else:
+
+        NTchange_type = "Remained unchanged"
+
+    if directors_found:
+
+        sheet['G7'].value = "Profit was £{:,} before Director remuneration. Compared to last year: £{:,}. {} by ({:.0f}%).".format(
+
+            NT, prev_NT, NTchange_type, comp)
+
+    else:
+
+        sheet['G7'].value = "Director figures were not detected in the PDF uploaded."
+
+    # Set the alignment and text wrap for the cell
+
+    cell = sheet['G7']
+
+    cell.alignment = styles.Alignment(
+
+
+
+
+
+
+
+        horizontal='left', vertical='center', wrap_text=True)
+
+    # Adjust the column width to fit the content
+
+    sheet.column_dimensions['G'].width = 40
+
+    sheet['G7'].font = normal_font
+
+    sheet['G8'].font = normal_font
+
+    sheet['G9'].font = normal_font
+
+    start_cell = sheet['G7']
+
+    end_cell = sheet['G9']
+
+    merge_range = f'{start_cell.coordinate}:{end_cell.coordinate}'
+
+    sheet.merge_cells(merge_range)
+    
+    row_index = 2
+
 
 
 def extract_data(pdf_path, page_numbers):
+
+    global row_index
 
     with open(pdf_path, 'rb') as file:
 
@@ -315,148 +614,10 @@ def extract_data(pdf_path, page_numbers):
 
             if page_number < 1 or page_number > num_pages:
 
-                messagebox.showerror("Invalid Page Number",
+                #messagebox.showerror("Invalid Page Number","Please enter valid page numbers.")
+                pass
 
-
-
-
-
-
-                                     "Please enter valid page numbers.")
-
-                return
-
-        workbook = openpyxl.Workbook()
-
-        sheet = workbook.active
-
-        xero_sheet = workbook.create_sheet("Xero")
-
-        xero_sheet.append(["Codes", "Expenditure", "Description",
-                          "Sub Total", "Total Amount", "Date"])
-
-        sheet.column_dimensions['A'].width = 30
-
-        sheet.column_dimensions['B'].width = 20
-
-        sheet.column_dimensions['C'].width = 20
-
-        sheet.column_dimensions['D'].width = 20
-
-        sheet.column_dimensions['E'].width = 20
-
-        sheet.column_dimensions['F'].width = 50
-
-        sheet.column_dimensions['G'].width = 30
-
-        # sheet.merge_cells(start_row=4, start_column=7, end_row=8, end_column=7)
-
-        font = Font(size=9, bold=True, underline="single")
-
-        key_font = Font(size=9, bold=False)
-
-        key_font_title = Font(size=11, bold=True)
-
-        normal_font = Font(size=9)
-
-        fill = PatternFill(start_color="B7CDE8",
-
-
-
-
-
-
-                           end_color="B7CDE8", fill_type="solid")
-
-        fillNETgreen = PatternFill(
-
-
-
-
-
-
-            start_color="B7E8BA", end_color="B7E8BA", fill_type="solid")
-
-        fillNETred = PatternFill(start_color="E8BAB7",
-
-
-
-
-
-
-                                 end_color="E8BAB7", fill_type="solid")
-
-        # The code below simply applies the font/styling to the column titles for each of the sheets
-
-        column_titles = ["A", "B", "C", "D", "E", "F", "G"]
-
-        for col_title in column_titles:
-
-            sheet[col_title + '1'].font = font
-
-        for col_title in column_titles:
-
-            xero_sheet[col_title + '1'].font = font
-
-       # Column title names
-
-        sheet['A1'] = "Expenditure"
-
-        sheet['B1'] = "This Year"
-
-        sheet['C1'] = "Last Year"
-
-        sheet['D1'] = "Difference"
-
-        sheet['E1'] = "% Change"
-
-        sheet['F1'] = "Explanation"
-
-        sheet['G1'] = "Additional"
-
-        sheet['I4'].value = "Key"
-
-        sheet['H4'].font = Font(bold=True)
-
-        # Cell H5: Colored cell with the same shade of blue
-
-        cell_h5 = sheet['I5']
-
-        cell_h5.fill = fill
-
-        # Key messages
-
-        sheet['I4'].font = key_font_title
-
-        sheet['J5'].font = key_font
-
-        sheet['J6'].font = key_font
-
-        sheet['J5'].value = "Identified value 0 in this year's or last year's account."
-
-        sheet['J6'].value = "Inaccurate calculations. Will need reviewing."
-
-        cell_h5 = sheet['I8']
-
-        cell_h5.fill = fillNETgreen
-
-        # Key messages
-
-        sheet['J9'].font = key_font
-
-        sheet['J9'].value = "Positive figures compared to last year. (GROSS/NET PROFIT)"
-
-        cell_h5 = sheet['I11']
-
-        cell_h5.fill = fillNETred
-
-        # Key messages
-
-        sheet['J12'].font = key_font
-
-        sheet['J12'].value = "Negative figures compared to last year. (GROSS/NET PROFIT)"
-
-        row_index = 2  # Starting row index for data
+        sheet_format()
 
         directors_sum = 0
 
@@ -510,14 +671,7 @@ def extract_data(pdf_path, page_numbers):
 
                     if last_year_float != 0.0:
 
-                        percentage_change = (
-
-
-
-
-
-
-                            difference / last_year_float) * 100
+                        percentage_change = (difference / last_year_float) * 100
 
                     else:
 
@@ -559,69 +713,25 @@ def extract_data(pdf_path, page_numbers):
 
                         difference = round(difference, 2)
 
-                    explanation = "£{:,} v £{:,} - £{:,} {} ({:.0f}%)".format(
-
-
-
-
-
-
-                        this_year, last_year, difference, change_type, percentage_change)
+                    explanation = "£{:,} v £{:,} - £{:,} {} ({:.0f}%)".format(this_year, last_year, difference, change_type, percentage_change)
 
                     if expenditure.startswith("Directors"):
 
                         directors_sum += this_year_float
 
-                    data.append((expenditure, this_year, last_year,
-
-
-
-
-
-
-                                difference, percentage_change, explanation))
+                    data.append((expenditure, this_year, last_year,difference, percentage_change, explanation))
 
                     BUILTIN_FORMATS = {
 
-
-
-
-
-
                         0: 'General',
-
-
-
-
-
 
                         1: '0',
 
-
-
-
-
-
                         2: '0.00',
-
-
-
-
-
 
                         3: '£#,##0',
 
-
-
-
-
-
                         4: '#,##0.00',
-
-
-
-
-
 
                         5: '0%'}
 
@@ -640,9 +750,11 @@ def extract_data(pdf_path, page_numbers):
 
 
 
+
                            value=this_year).number_format = FORMAT_NUMBER_COMMA_SEPARATED1
 
                 sheet.cell(row=row_index, column=3,
+
 
 
 
@@ -658,6 +770,7 @@ def extract_data(pdf_path, page_numbers):
 
 
 
+
                            value=difference).number_format = FORMAT_NUMBER_COMMA_SEPARATED1
 
                 sheet.cell(row=row_index, column=5,
@@ -667,9 +780,11 @@ def extract_data(pdf_path, page_numbers):
 
 
 
+
                            value="{:.0f}%".format(percentage_change))
 
                 sheet.cell(row=row_index, column=6,
+
 
 
 
@@ -710,187 +825,12 @@ def extract_data(pdf_path, page_numbers):
 
                 row_index += 1
 
-        directors_figures = []
-
-        directors_found = False
-
-        for row_index in range(2, row_index):
-
-            expenditure = sheet.cell(row=row_index, column=1).value
-
-            if expenditure and expenditure.startswith("Directors"):
-
-                this_year = sheet.cell(row=row_index, column=2).value
-
-                if this_year:
-
-                    if isinstance(this_year, str):
-
-                        this_year = float(this_year.replace(",", ""))
-
-                    directors_figures.append(this_year)
-
-        directors_sum = sum(directors_figures)
-
-        # As long as NET PROFT is within 100 rows, this will locate it and store it
-
-        net_figures = [0]
-
-        for row_index in range(2, 100):
-
-            expenditure = sheet.cell(row=row_index, column=1).value
-
-            if expenditure and expenditure.startswith("NET"):
-
-                this_year = sheet.cell(row=row_index, column=2).value
-
-                if this_year:
-
-                    if isinstance(this_year, str):
-
-                        this_year = float(this_year.replace(",", ""))
-
-                    net_figures.append(this_year)
-
-        Net_sum = sum(net_figures)
-
-        NT = directors_sum + Net_sum
-
-        prev_directors_figures = []
-
-        for row_index in range(2, row_index):
-
-            expenditure = sheet.cell(row=row_index, column=1).value
-
-            if expenditure and expenditure.startswith("Directors"):
-
-                directors_found = True
-
-                last_year = sheet.cell(row=row_index, column=3).value
-
-                if last_year:
-
-                    if isinstance(last_year, str):
-
-                        last_year = float(last_year.replace(",", ""))
-
-                    prev_directors_figures.append(last_year)
-
-        prev_directors_sum = sum(prev_directors_figures)
-
-        # As long as NET PROFT is within 100 rows, this will locate it and store it
-
-        prev_net_figures = [0]
-
-        for row_index in range(2, 100):
-
-            expenditure = sheet.cell(row=row_index, column=1).value
-
-            if expenditure and expenditure.startswith("NET"):
-
-                last_year = sheet.cell(row=row_index, column=3).value
-
-                if last_year:
-
-                    if isinstance(last_year, str):
-
-                        last_year = float(last_year.replace(",", ""))
-
-                    prev_net_figures.append(last_year)
-
-        prev_Net_sum = sum(prev_net_figures)
-
-        prev_NT = prev_directors_sum + prev_Net_sum
-
-        diff_NT = NT - prev_NT
-
-        if prev_NT != 0.0:
-
-            comp = (
-
-
-
-
-
-
-                diff_NT / prev_NT) * 100
-
-        else:
-
-            comp = 0.0
-
-        # comp = prev_NT / diff_NT * 100
-
-        if diff_NT > 0:
-
-            NTchange_type = "Increased"
-
-        elif diff_NT < 0:
-
-            NTchange_type = "Decreased"
-
-        else:
-
-            NTchange_type = "Remained unchanged"
-
-        if directors_found:
-
-            sheet['G7'].value = "Profit was £{:,} before Director remuneration. Compared to last year: £{:,}. {} by ({:.0f}%).".format(
-
-                NT, prev_NT, NTchange_type, comp)
-
-        else:
-
-            sheet['G7'].value = "Director remuneration was not detected in the account uploaded."
-
-        # sheet['G8'].value = "Compared to last year: £{:.0f} before Director remuneration.".format(prev_NT)
-
-        # sheet['G9'].value = "{} by ({:.0f}%) from last to this year.".format(NTchange_type, comp)
-
-        # Set the alignment and text wrap for the cell
-
-        cell = sheet['G7']
-
-        cell.alignment = styles.Alignment(
-
-
-
-
-
-
-            horizontal='left', vertical='center', wrap_text=True)
-
-        # Adjust the column width to fit the content
-
-        sheet.column_dimensions['G'].width = 40
-
-        sheet['G7'].font = normal_font
-
-        sheet['G8'].font = normal_font
-
-        sheet['G9'].font = normal_font
-
-        start_cell = sheet['G7']
-
-        end_cell = sheet['G9']
-
-        merge_range = f'{start_cell.coordinate}:{end_cell.coordinate}'
-
-        sheet.merge_cells(merge_range)
+    director_renumeration()
 
     return workbook
 
 
-def file_asker():
-
-    pdf_path = filedialog.askopenfilename(
-
-
-
-
-
-
-        filetypes=[("PDF Files", "*.pdf")], title="Select PDF File")
+def file_asker(pdf_path,end_name):
 
     if pdf_path:
 
@@ -903,7 +843,7 @@ def file_asker():
         print(f"Date: {end_date}")
 
         # Prompt the user to enter the page numbers
-
+        
         page_numbers = find_profit_loss_pages(pdf_path)
 
         workbook = extract_data(pdf_path, page_numbers)
@@ -911,49 +851,54 @@ def file_asker():
         if workbook:
 
             # Prompt the user to choose the save location for the Excel file
+            #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#
+            #Replace this by the static saving path
+            try:
+                #file_path = r'E:\pynative\account\profit.txt'
+                # create file
+                with open(os.path.join(os.getcwd(),'media','output',end_name), 'x') as fp:
+                    pass
+            except:
+                print('File already exists')
 
-            excel_path = filedialog.asksaveasfilename(defaultextension=".xlsx",
+            ########################################################################################################
+
+            def clear_excel_file(file_path):
+                try:
+                    workbook = openpyxl.load_workbook(file_path)
+                    for sheet in workbook.sheetnames:
+                        worksheet = workbook[sheet]
+                        for row in worksheet.iter_rows():
+                            for cell in row:
+                                cell.value = None
+                    workbook.save(file_path)
+                    workbook.close()
+                    print("All values cleared in the Excel file.")
+                except Exception as e:
+                    print(f"An error occurred: {e}")
 
 
+            clear_excel_file(os.path.join(os.getcwd(),'media','output',end_name))
+            #########################################################################################################
+            
 
 
-
-
-
-
-
-
-
-
-                                                      filetypes=[
-
-                                                          ("Excel Files", "*.xlsx")],
-
-                                                      title="Save Excel File")
-
+            #excel_path = r'media/output/' + end_name 
+            excel_path = os.path.join(os.getcwd(),'media','output',end_name)
             if excel_path:
 
+                
                 workbook.save(excel_path)
 
                 output = "output"
 
-                messagebox.showinfo("Extraction Complete",
-
-
-
-
-
-
-                                    "Data extracted and saved to Excel file.")
-
                 # Create path for text file using the excel path
 
-                txt_path = os.path.join(MAIN_PATH,"pythonCollection","output.csv")
+                txt_path = "pythonCollection\output.csv"
 
                 xl_file = pd.read_excel(excel_path)
 
-                xl_file['diff_float_pers'] = xl_file['Difference'] / \
-                    xl_file['Last Year']
+                xl_file['diff_float_pers'] = xl_file['Difference'] / xl_file['Last Year']
 
                 new_df = xl_file[xl_file['diff_float_pers'] >= 0.05]
 
@@ -971,211 +916,31 @@ def file_asker():
 
                     file.write(f"{end_date}, 1.1\n")
 
-                from subprocess import call
+def delete_rows_below_net_profit(file_path):
 
-                call(["pythonCollection\FINAL.py"])
+    try:
 
-                # 1. ) Invoice DF
+        workbook = openpyxl.load_workbook(file_path)
+        for sheet in workbook.sheetnames:
+            worksheet = workbook[sheet]
+            for row in worksheet.iter_rows():
+                for cell in row:
+                    if cell.value == "NET PROFIT":
+                        row_index = cell.row
+                        worksheet.delete_rows(row_index + 1, worksheet.max_row - row_index)
+                        break 
 
-                df_inv = pd.read_csv(os.path.join(MAIN_PATH,"pythonCollection",'invoice_new.csv'))
+        workbook.save(file_path)
+        workbook.close()
+        print("Rows below 'NET PROFIT' deleted in the Excel file.")
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
-                codes = pd.DataFrame(df_inv['AccountCode'].value_counts())
 
-                codes['acc_codes'] = list(codes.index)
 
-                codes.index = range(codes.shape[0])
+                    
 
-                codes.columns = ['no_of_invoices', 'acc_code']
-
-                FRAMES_INV = {}
-
-                for i in codes['acc_code']:
-
-                    FRAMES_INV[i] = df_inv[(df_inv['AccountCode'] == i) & (
-
-                        df_inv['Status'] == 'PAID')].sort_values(by="TotalAmount", ascending=False).head(10)
-
-                # 2.) Transaction DF
-
-                df_trans = pd.read_csv(os.path.join(MAIN_PATH,"pythonCollection",'transaction_new.csv'))
-
-                codes_trans = pd.DataFrame(
-
-                    df_trans['AccountCode'].value_counts())
-
-                codes_trans['acc_codes'] = list(codes_trans.index)
-
-                codes_trans.index = range(codes_trans.shape[0])
-
-                codes_trans.columns = ['no_of_transacs', 'acc_code']
-
-                FRAMES_TRANS = {}
-
-                for i in codes_trans['acc_code']:
-
-                    if str(i).isnumeric():
-
-                        FRAMES_TRANS[int(i)] = df_trans[(df_trans['AccountCode'] == i) & (
-
-                            df_trans['Status'] == 'AUTHORISED')].sort_values(by="TotalAmount", ascending=False).head(10)
-
-                    else:
-
-                        FRAMES_TRANS[i] = df_trans[(df_trans['AccountCode'] == i) & (
-
-                            df_trans['Status'] == 'AUTHORISED')].sort_values(by="TotalAmount", ascending=False).head(10)
-
-                # 3.) Overpayments DF
-
-                df_over = pd.read_csv(os.path.join(MAIN_PATH,"pythonCollection",'overpayment_new.csv'))
-
-                codes_over = pd.DataFrame(
-
-                    df_over['AccountCode'].value_counts())
-
-                codes_over['acc_codes'] = list(codes_over.index)
-
-                codes_over.index = range(codes_over.shape[0])
-
-                codes_over.columns = ['no_of_overpayments', 'acc_code']
-
-                FRAMES_OVER = {}
-
-                for i in codes_over['acc_code']:
-
-                    if str(i).isnumeric():
-
-                        FRAMES_OVER[int(i)] = df_over[(df_over['AccountCode'] == i)].sort_values(
-
-                            by="TotalAmount", ascending=False).head(10)
-
-                    else:
-
-                        FRAMES_OVER[i] = df_over[(df_over['AccountCode'] == i)].sort_values(
-
-                            by="TotalAmount", ascending=False).head(10)
-
-                # 4. ) Jounals DF
-
-                df_journal = pd.read_csv(os.path.join(MAIN_PATH,"pythonCollection",'journal_new.csv'))
-
-                codes_journal = pd.DataFrame(
-
-                    df_journal['AccountCode'].value_counts())
-
-                codes_journal['acc_codes'] = list(codes_journal.index)
-
-                codes_journal.index = range(codes_journal.shape[0])
-
-                codes_journal.columns = ['no_of_journals', 'acc_code']
-
-                FRAMES_JOURNAL = {}
-
-                for i in codes_journal['acc_code']:
-
-                    if str(i).isnumeric():
-
-                        FRAMES_JOURNAL[int(i)] = df_journal[(df_journal['AccountCode'] == i) & (
-
-                            df_journal['Status'] == 'POSTED')].sort_values(by="LineAmount", ascending=False).head(10)
-
-                    else:
-
-                        FRAMES_JOURNAL[i] = df_journal[(df_journal['AccountCode'] == i) & (
-
-                            df_journal['Status'] == 'POSTED')].sort_values(by="LineAmount", ascending=False).head(10)
-
-                # 5. )Prepaymants
-
-                df_prepay = pd.read_csv(os.path.join(MAIN_PATH,"pythonCollection",'prepayment_new.csv'))
-
-                codes_prepay = pd.DataFrame(
-
-                    df_prepay['AccountCode'].value_counts())
-
-                codes_prepay['acc_codes'] = list(codes_prepay.index)
-
-                codes_prepay.index = range(codes_prepay.shape[0])
-
-                codes_prepay.columns = ['no_of_transacs', 'acc_code']
-
-                FRAMES_PREPAY = {}
-
-                for i in codes_prepay['acc_code']:
-
-                    if str(i).isnumeric():
-
-                        FRAMES_PREPAY[int(i)] = df_prepay[(df_prepay['AccountCode'] == i) & (
-
-                            df_prepay['Status'] == 'PAID')].sort_values(by="Total", ascending=False).head(10)
-
-                    else:
-
-                        FRAMES_PREPAY[i] = df_prepay[(df_prepay['AccountCode'] == i) & (
-
-                            df_prepay['Status'] == 'PAID')].sort_values(by="Total", ascending=False).head(10)
-
-                # 6. )PurchaseOrder
-
-                df_order = pd.read_csv(os.path.join(MAIN_PATH,"pythonCollection",'purchaseorder_new.csv'))
-
-                codes_order = pd.DataFrame(
-
-                    df_order['AccountCode'].value_counts())
-
-                codes_order['acc_codes'] = list(codes_order.index)
-
-                codes_order.index = range(codes_order.shape[0])
-
-                codes_order.columns = ['no_of_purchaseOrders', 'acc_code']
-
-                FRAMES_ORDER = {}
-
-                for i in codes_order['acc_code']:
-
-                    if str(i).isnumeric():
-
-                        FRAMES_ORDER[int(i)] = df_order[(df_order['AccountCode'] == i) & (
-
-                            df_order['Status'] != 'DELETED')].sort_values(by="Total", ascending=False).head(10)
-
-                    else:
-
-                        FRAMES_ORDER[i] = df_order[(df_order['AccountCode'] == i) & (
-
-                            df_order['Status'] != 'DELETED')].sort_values(by="Total", ascending=False).head(10)
-
-                # 7. )CreditNotes
-
-                df_notes = pd.read_csv(os.path.join(MAIN_PATH,"pythonCollection",'creditnotes_new.csv'))
-
-                codes_notes = pd.DataFrame(
-
-                    df_notes['AccountCode'].value_counts())
-
-                codes_notes['acc_codes'] = list(codes_notes.index)
-
-                codes_notes.index = range(codes_notes.shape[0])
-
-                codes_notes.columns = ['no_of_creditNotes', 'acc_code']
-
-                FRAMES_NOTES = {}
-
-                for i in codes_notes['acc_code']:
-
-                    if str(i).isnumeric():
-
-                        FRAMES_NOTES[int(i)] = df_notes[(df_notes['AccountCode'] == i) & (
-
-                            df_notes['Status'] == 'PAID')].sort_values(by="Total", ascending=False).head(10)
-
-                    else:
-
-                        FRAMES_NOTES[i] = df_notes[(df_notes['AccountCode'] == i) & (
-
-                            df_notes['Status'] == 'PAID')].sort_values(by="Total", ascending=False).head(10)
-
-
+'''
 def closeWindow():
 
     root.destroy()
@@ -1192,13 +957,15 @@ root.maxsize(1050, 800)
 
 root.title("Review Notes Composer")
 
-ico = Image.open(os.path.join(STATIC_ROOT_HERE,'logo-only.png'))
+
+ico = Image.open('logo-only.png')
 
 photo = ImageTk.PhotoImage(ico)
 
 root.wm_iconphoto(False, photo)
 
 ########################################
+
 
 # Empty Row 1
 
@@ -1223,7 +990,7 @@ empC2.grid(row=0, column=1, rowspan=8)
 
 # Warning Label
 
-infoLabel = tk.Label(text=''' BETA VERSION  
+infoLabel = tk.Label(text='''''' BETA VERSION  
 
    
 
@@ -1253,7 +1020,7 @@ Process:
 
 4) Save. Open. Review.
 
-'''
+''''''
 
                      )
 
@@ -1322,3 +1089,5 @@ empC3.grid(row=0, column=7, rowspan=8)
 
 
 root.mainloop()
+
+'''

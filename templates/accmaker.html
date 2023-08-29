@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+
+{% block pagetitle %}Accounts Codes Composer{% endblock pagetitle %}
+
+{% block mainbody %}
+
+
+<div class='container m-5'>
+    <div class='p-3'>
+    </div>
+  </div>
+  
+  
+  <div class='container py-5'>
+  <div class="row">
+    <div class="col-sm-6 mb-3 mb-sm-0">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Caution:-</h5>
+          <ul>
+            <li>
+              <p class="card-text">This software is still under testing, in case of faliure please mail the faliure screen to the IT Department.</p>
+            </li>
+            <li>
+              <p class="card-text">This Software does <strong>NOT</strong> use AI, feel free to use sensitive data.</p>
+            </li>
+            <li>
+              <p class="card-text">This is not a secured software at the moment, please do <strong>NOT</strong> share the website the link to others.</p>
+            </li>
+            <li>
+              <p class="card-text">Please <strong>ONLY</strong> use the full set of accounts that are produced by IRIS.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Instructions for use:-</h5>
+          <ul>
+            <li>
+              <p class="card-text">Upload the full set of Accounts <strong>PDF</strong> to the upload button.</p>
+            </li>
+            <li>
+              <p class="card-text">Give it a name you like, Please do <strong>NOT</strong> click on compose button without the name.</p>
+            </li>
+            <li>
+              <p class="card-text">Wait for the processing to finish, <strong>DO NOT REFRESH</strong> the page while loading.</p>
+            </li>
+            <li>
+              <p class="card-text center">Click on <strong>download button</strong> to download the file.</p>
+            </li>
+          
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+  
+  <div class='container text-center mt-3 p-5'>
+    <form method='POST' enctype='multipart/form-data' action="{% url 'uploadedacc' %}">
+        {% csrf_token %}
+        <div class="mb-3">
+            <label for="excel_sheet" class="form-label"><strong>Please Upload Your Excel</strong></label>
+            <input type="file" class="form-control p-2" id="excel_sheet" name="excel_sheet" accept='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel'>
+        </div>
+        <div class="mb-3">
+            <label for="end_date" class="form-label"><strong>Please Enter Year End Date</strong></label>
+            <input type="date" class="form-control p-2" id="end_date" name="end_date">
+        </div>
+        <button type="submit" class="btn btn-primary mt-3 p-2">Compose Account Codes</button>
+    </form>
+  </div>
+
+  
+
+
+
+{% endblock mainbody %}

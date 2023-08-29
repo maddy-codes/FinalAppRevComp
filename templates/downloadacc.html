@@ -16,11 +16,11 @@
     <H1><label class="label  d-flex align-items-center justify-content-center mt-5"><strong>Your File is Ready to Download. </strong></label></H1>
     
 
-    <form method='POST' action = "{% url 'download' %}">
+    <form method='POST' action = "{% url 'downloadacc' %}">
         {%csrf_token%}
     <div class='p-5 m-5'>
-        <input type='submit'  class='btn btn-primary m-3 p-3  w-25 ' action="/download" value='Download'></a>
-        <a href='/' class='btn btn-primary m-3 p-3 w-25'>Go Back</a>
+        <input type='submit'  class='btn btn-primary m-3 p-3  w-25 ' action="/downloadacc" value='Download'></a>
+        <a href='/accmaker' class='btn btn-primary m-3 p-3 w-25'>Go Back</a>
     </div>
 
 </div> 
